@@ -56,6 +56,10 @@ a{
     display: flex;
     flex-direction: row;
 }
+.alinhamento-coluna{
+    display: flex;
+    flex-direction: column;
+}
 
 /* Cores */
 .background-branco{
@@ -72,6 +76,17 @@ a{
 }
 .color-vermelho{
     color: var(--vermelho);
+}
+.color-branco{
+    color: var(--branco);
+}
+
+/* Botões */
+.btn{
+    font-family: 'Agdasima';
+    color: var(--vermelho);
+    padding: .6em;
+    border: 2px solid var(--vermelho);
 }
 
 /* ---------------------------------------------------- Menu --------------------------------------------- */
@@ -108,13 +123,16 @@ header li p:target #header_servicos{
 }
 
 /* ---------------------------------------------------- Home --------------------------------------------- */
+div#container__above_the_fold, div#container__sobre_nos{
+    width: 100%;
+}
+div#container__above_the_fold > div, div#container__sobre_nos > div{
+    width: 50%;
+}
 
 /* ---------------------- Above The Fold ------------------------- */
 div#container__above_the_fold{
-    width: 100%;
-    max-height: 100vh;
+    height: 76vh;
 }
-div#container__above_the_fold div.padding-sessoes > div{
-    width: 50%;
-    height: 100%;
-}
+
+/* ---------------------- Sobre Nós ------------------------- */
