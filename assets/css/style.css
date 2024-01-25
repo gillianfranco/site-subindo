@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 3.5vh;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+
+/* Caracteres */
+h1, h2, h3{
+    font-family: 'Agdasima';
+    font-weight: 700;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.2em;
+}
+p{
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+}
+
+/* Cores */
+:root{
+    --vermelho: #ed1c24;
+    --branco: #fff;
+    --cinzaClaro: #d2d3d5;
+    --preto: #000;
+}
+
+/* ------- Classes ------- */
+
+/* Alinhamento */
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.padding-sessoes{
+    padding: 2em 4em;
+}
+.alinhamento-linha{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Cores */
+.background-branco{
+    background-color: var(--branco);
+}
+.background-cinzaClaro{
+    background-color: var(--cinzaClaro);
+}
+.background-preto{
+    background-color: var(--preto);
+}
+.color-preto{
+    color: var(--preto);
+}
+.color-vermelho{
+    color: var(--vermelho);
+}
+
+/* ---------------------------------------------------- Menu --------------------------------------------- */
+main header{
+    padding: .8em .5em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+main header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main header nav#header_servicos{
+    display: none;
+}
+main header img{
+    width: 12em;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li{
+    margin-right: 1em;
+}
+header li p{
+    cursor: pointer;
+}
+header li p:target #header_servicos{
+    display: block;
+}
+
+/* ---------------------------------------------------- Home --------------------------------------------- */
+
+/* ---------------------- Above The Fold ------------------------- */
+div#container__above_the_fold{
+    width: 100%;
+    max-height: 100vh;
+}
+div#container__above_the_fold div.padding-sessoes > div{
+    width: 50%;
+    height: 100%;
+}
