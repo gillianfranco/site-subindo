@@ -28,6 +28,7 @@ h3{
 p{
     font-family: 'Poppins';
     font-weight: 400;
+    text-align: justify;
 }
 a{
     text-decoration: none;
@@ -48,17 +49,19 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .padding-sessoes{
     padding: 2em 4em;
 }
 .alinhamento-linha{
-    display: flex;
     flex-direction: row;
 }
 .alinhamento-coluna{
-    display: flex;
     flex-direction: column;
+}
+.metade{
+    width: 50%;
 }
 
 /* Cores */
@@ -82,11 +85,12 @@ a{
 }
 
 /* Botões */
-.btn{
+a.btn{
     font-family: 'Agdasima';
+    font-weight: 700;
     color: var(--vermelho);
     padding: .6em;
-    border: 2px solid var(--vermelho);
+    border: 4px solid var(--vermelho);
 }
 
 /* ---------------------------------------------------- Menu --------------------------------------------- */
@@ -102,13 +106,13 @@ main header nav{
     justify-content: space-between;
     align-items: center;
 }
-main header nav#header_servicos{
+/* main header nav#header_servicos{
     display: none;
-}
+} */
 main header img{
     width: 12em;
 }
-header ul{
+ul{
     list-style: none;
     display: flex;
 }
@@ -118,21 +122,104 @@ header ul li{
 header li p{
     cursor: pointer;
 }
-header li p:target #header_servicos{
+/* header li p:target #header_servicos{
     display: block;
+} */
+
+/* ---------------------------------------------------- Roda pé --------------------------------------------- */
+footer{
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer div div article{
+    margin-right: 1em;
+}
+footer ul{
+    margin-top: .5em;
+}
+footer a{
+    color: var(--branco);
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer div:nth-child(2){
+    margin-top: 2em;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer div:nth-child(2) table td{
+    width: 3em;
+    height: 3em;
+    text-align: center;
 }
 
 /* ---------------------------------------------------- Home --------------------------------------------- */
-div#container__above_the_fold, div#container__sobre_nos{
-    width: 100%;
-}
-div#container__above_the_fold > div, div#container__sobre_nos > div{
-    width: 50%;
-}
 
 /* ---------------------- Above The Fold ------------------------- */
 div#container__above_the_fold{
     height: 76vh;
 }
 
-/* ---------------------- Sobre Nós ------------------------- */
+/* ---------------------- Sessões ------------------------- */
+div[id^="container__"], div.container__pedir_analise, footer > div{
+    flex-direction: row;
+}
+
+/* ---------------------- Container Sobre nós ------------------------- */
+div#container__sobre_nos > div{
+    flex-direction: column;
+}
+
+/* ---------------------- Container Serviços ------------------------- */
+div#container__servicos > div{
+    flex-direction: column;
+}
+div#container__servicos nav{
+    width: 100%;
+    margin-top: 1em;
+}
+div#container__servicos a{
+    font-family: 'Agdasima';
+    font-size: 1.2em;
+}
+
+/* ---------------------- Container Cases ------------------------- */
+div#container__cases h2{
+    text-decoration: underline;
+}
+
+
+/* ---------------------- Container Pedir Análise ------------------------- */
+div.container__pedir_analise{
+    justify-content: space-around;
+    padding: 3em;
+}
+
+/* ---------------------- Container Pedir Análise ------------------------- */
+div#container__metodologia h3{
+    margin: 1em 0 .5em 0;
+}
+
+/* ---------------------- Imagens ------------------------- */
+img#imagem__above_the_fold, img#imagem__titulo_above_the_fold{
+    width: 88vh;
+}
+img#imagem__sobre_nos{
+    width: 75vh;
+}
+img#imagem__servicos{
+    width: 65vh;
+}
+img#imagem__container_cases{
+    width: 90vh;
+}
+img#imagem__container_metodologia{
+    width: 65vh;
+}
+img#imagem__container_objetivo{
+    width: 78vh;
+}
+footer div:nth-child(1) img{
+    width: 12em;
+}
