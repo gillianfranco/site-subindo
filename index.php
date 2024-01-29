@@ -13,18 +13,24 @@
     <body>
         <main>
             <header class="background-preto">
-                <nav>
+                <nav id="lista__links_principais">
                     <div>
                         <a href=""><img src="assets/images/logos/logo-subindo900x248.png" alt="Logo Subindo Agência"></a>
                     </div>
                     <ul>
                         <li><a href="pages/sobre.php"><p class="color-vermelho">Empresa</p></a></li>
-                        <li><a href="#header_servicos"><p class="color-vermelho">Serviços</p></a></li>
+                        <li><p class="color-vermelho" id="hover__links_secundarios">Serviços</p></li>
                         <li><a href=""><p class="color-vermelho">Contato</p></a></li>
                     </ul>
                 </nav>
-                <nav id="header_servicos">
-                    
+                <nav id="lista__links_secundarios">
+                    <ul>
+                        <li><a href=""><p class="color-vermelho">Google Meu Negócio</p></a></li>
+                        <li><a href=""><p class="color-vermelho">SEO</p></a></li>
+                        <li><a href=""><p class="color-vermelho">Tráfego</p></a></li>
+                        <li><a href=""><p class="color-vermelho">Social Media</p></a></li>
+                        <li><a href=""><p class="color-vermelho">Sites</p></a></li>
+                    </ul>
                 </nav>
             </header>
             <section>
@@ -84,7 +90,7 @@
                         <img id="imagem__container_cases" src="assets/images/fotos/ficha-google-omegaADM.png" alt="Foto Ficha Google da Ômega Administradora">
                     </div>
                 </div>
-                <div class="container__pedir_analise" class="background-branco centralizar">
+                <div class="container__pedir_analise background-branco centralizar">
                     <h2>Quero melhorar meus resultados!</h2>
                     <a href="" class="btn">Fale conosco</a>
                 </div>

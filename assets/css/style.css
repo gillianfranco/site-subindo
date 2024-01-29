@@ -95,20 +95,17 @@ a.btn{
 
 /* ---------------------------------------------------- Menu --------------------------------------------- */
 main header{
-    padding: .8em .5em;
     position: sticky;
     top: 0;
     z-index: 1;
 }
-main header nav{
+main header nav#lista__links_principais{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: .8em .5em;
 }
-/* main header nav#header_servicos{
-    display: none;
-} */
 main header img{
     width: 12em;
 }
@@ -116,15 +113,38 @@ ul{
     list-style: none;
     display: flex;
 }
-header ul li{
+header nav#lista__links_principais li{
     margin-right: 1em;
 }
 header li p{
     cursor: pointer;
 }
-/* header li p:target #header_servicos{
+p#hover__links_secundarios:hover nav#lista__links_secundarios{
     display: block;
-} */
+}
+nav#lista__links_secundarios{
+    width: 100%;
+    position: absolute;
+    top: 14vh;
+    display: none;
+}
+nav#lista__links_secundarios:before{
+    content: "";
+    position: absolute;
+    top: -3vh;
+    left: 178vh;
+    transform: translateX(-50%);
+    z-index: 1;
+    border: 15px solid;
+    border-color: transparent transparent var(--branco) transparent;
+}
+nav#lista__links_secundarios > ul{
+    position: absolute;
+    display: block;
+    background-color: var(--branco);
+    padding: .5em;
+    width: 100%;
+}
 
 /* ---------------------------------------------------- Roda pé --------------------------------------------- */
 footer{
