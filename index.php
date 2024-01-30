@@ -47,14 +47,8 @@
                 <div id="container__sobre_nos" class="padding-sessoes background-preto centralizar">
                     <div class="centralizar">
                         <h1 class="color-vermelho">Sobre Nós</h1>
-                        <p class="color-branco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis rerum alias saepe tempora delectus ab sit facilis velit officiis unde aut eos aperiam dignissimos, corrupti perspiciatis molestiae, omnis sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident nostrum consectetur nesciunt qui nulla impedit necessitatibus, maiores placeat? Ea commodi enim non ducimus repudiandae vero natus? Corporis, quas blanditiis?</p>
-                        <a href="" class="btn" style="margin: 1em;">
-                            <span class="btnAnimation_top"></span>
-                            <span class="btnAnimation_right"></span>
-                            <span class="btnAnimation_bottom"></span>
-                            <span class="btnAnimation_left"></span>
-                            Conheça a Empresa
-                        </a>
+                        <p class="color-branco">A Subindo, sua agência de marketing digital, possui o objetivo de impulsionar o sucesso de empresas que oferecem produtos e serviços excepcionais, mas enfrentam desafios de visibilidade online. Nosso compromisso é proporcionar merecida visibilidade a negócios promissores, destacando não apenas as qualidades, mas também validando sua excelência por meio de prova social.</p>
+                        <a href="pages/sobre.php" class="btn" style="margin: 1em;">Conheça a Empresa</a>
                     </div>
                     <div class="color-vermelho centralizar">
                         <img id="imagem__sobre_nos" src="assets/images/fotos/foto-estudio1275x1002.png" alt="Foto do Estúdio">
@@ -68,31 +62,35 @@
                         </abbr>
                     </div>
                     <div class="centralizar color-branco metade">
-                        <h2>Subtítulo</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis sint voluptatibus possimus dignissimos veritatis nobis delectus error laudantium. Mollitia deserunt, ratione eaque non aliquam quos quidem? Quas beatae nesciunt ducimus.</p>
+                        <h2>Serviços</h2>
+                        <p>Oferecemos uma gama abrangente de serviços de marketing digital projetados para elevar a sua presença online e impulsionar o sucesso do seu negócio. Confira como podemos transformar a sua marca:</p>
                         <nav>
                             <ul class="alinhamento-coluna">
-                                <li><a href="" class="color-branco">lorem</a></li>
-                                <li><a href="" class="color-branco">lorem</a></li>
-                                <li><a href="" class="color-branco">lorem</a></li>
-                                <li><a href="" class="color-branco">lorem</a></li>
+                                <li><a href="pages/google_meu_negocio.php">Google Meu Negócio</a></li>
+                                <li><a href="pages/presenca_digital.php">Presença Digital</a></li>
+                                <li><a href="pages/seo.php">Otimização para Motores de Busca (SEO)</a></li>
+                                <li><a href="pages/trafego_pago.php">Tráfego Pago</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
-                <div id="container__cases" class="padding-sessoes background-preto centralizar">
-                    <div class="centralizar metade alinhamento-coluna">
-                        <h1 class="color-vermelho">Case de Sucesso</h1>
-                        <h2 class="color-branco">Ômega Administradora de Condomínios</h2>
-                        <p class="color-branco">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, non, nesciunt porro tempore, dolor dolorem voluptas obcaecati recusandae perferendis perspiciatis enim suscipit a magni voluptate ullam voluptates nostrum modi ad.</p>
+                <div id="container__cases" class="padding-sessoes background-preto centralizar alinhamento-coluna">
+                    <h1 class="color-vermelho">Case de Sucesso</h1>
+                    <div class="centralizar alinhamento-linha">
+                        <div class="centralizar metade alinhamento-coluna">
+                            <h2 class="color-branco">Ômega Administradora de Condomínios</h2>
+                            <p class="color-branco">Com a aplicação de estratégias eficientes e utilizando o Google Meu Negócio como parceiro estratégico, estabelecemos confiança e impulsionamos a atração de novos clientes. As avaliações positivas não apenas fortaleceram a reputação da Ômega, mas também se tornaram uma poderosa prova social.</p>
+                            <a href="" class="btn">Saiba mais sobre o case</a>
+                        </div>
+                        <div class="centralizar metade alinhamento-coluna">
+                            <img id="imagem__container_cases" src="assets/images/fotos/ficha-google-omegaADM.png" alt="Foto Ficha Google da Ômega Administradora">
+                        </div>
                     </div>
-                    <div class="centralizar metade">
-                        <img id="imagem__container_cases" src="assets/images/fotos/ficha-google-omegaADM.png" alt="Foto Ficha Google da Ômega Administradora">
-                    </div>
+                    
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
-                    <h2>Quero melhorar meus resultados!</h2>
-                    <a href="" class="btn">Fale conosco</a>
+                    <h2>Quero dar visibilidade ao meu negócio!</h2>
+                    <a href="" class="btn">Fale Conosco</a>
                 </div>
             </section>
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">

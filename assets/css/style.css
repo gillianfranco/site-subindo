@@ -51,6 +51,14 @@ a{
     align-items: center;
     width: 100%;
 }
+.block_centralizado{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
 .padding-sessoes{
     padding: 2em 4em;
 }
@@ -182,7 +190,7 @@ div#container__above_the_fold{
 }
 
 /* ---------------------- Sessões ------------------------- */
-div[id^="container__"], div.container__pedir_analise, footer > div{
+div[id^="container__"]:not(div#container__cases), div.container__pedir_analise, footer > div{
     flex-direction: row;
 }
 
@@ -202,13 +210,20 @@ div#container__servicos nav{
 div#container__servicos a{
     font-family: 'Agdasima';
     font-size: 1.2em;
+    text-decoration: underline;
+    color: var(--branco);
+}
+div#container__servicos a:hover{
+    color: var(--vermelho);
 }
 
 /* ---------------------- Container Cases ------------------------- */
-div#container__cases h2{
-    text-decoration: underline;
+div#container__cases a{
+    margin-top: 1em;
 }
-
+div#container__cases > h1{
+    margin-bottom: .5em;
+}
 
 /* ---------------------- Container Pedir Análise ------------------------- */
 div.container__pedir_analise{
@@ -232,7 +247,7 @@ img#imagem__servicos{
     width: 65vh;
 }
 img#imagem__container_cases{
-    width: 90vh;
+    width: 70vh;
 }
 img#imagem__container_metodologia{
     width: 65vh;
