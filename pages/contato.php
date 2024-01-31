@@ -33,41 +33,20 @@
                     </ul>
                 </nav>
             </header>
-            <section>
-                <div id="container__above_the_fold" class="background-preto centralizar padding-sessoes">
-                    <div class="centralizar metade alinhamento-coluna">
-                        <h1 class="color-vermelho">Conheça a Nossa Empresa</h1>
-                        <p class="color-branco">A agência de marketing digital Subindo tem como objetivo impulsionar o sucesso de empresas que oferecem serviços e produtos de excelência, mas que carecem de presença digital.</p>
+            <section class="container__pedir_analise background-branco centralizar">
+                <div id="container__above_the_fold" class="background-preto centralizar">
+                    <div class="centralizar metade">
+                        <h1 class="color-vermelho">Fale Conosco</h1>
+                        <h3 class="color-branco">Entenda como podemos te ajudar</h3>
                     </div>
                     <div class="centralizar metade">
-                        <abbr title="https://pt.vecteezy.com/vetor-gratis/marketing">
-                            <img id="imagem__above_the_fold" src="../assets/images/imagem-above-the-fold/imagem-above-the-fold.png" alt="">
-                        </abbr>
+                        <h3 class="color-vermelho">Endereço</h3>
+                        <p class="color-branco">Rua Santos Dumont, 1515 - Lídice, Uberlândia - MG, 38400-062</p>
+                        <h3 class="color-vermelho">Contatos</h3>
+                        <ul class="color-branco">
+                            <li></li>
+                        </ul>
                     </div>
-                </div>
-                <div id="container__metodologia" class="background-preto centralizar padding-sessoes">
-                    <div class="centralizar metade">
-                        <img id="imagem__container_metodologia" src="../assets/images/fotos/foto-metodologia.png" alt="Foto Gráfico">
-                    </div>
-                    <div class="centralizar metade alinhamento-coluna color-branco">
-                        <h2>Estratégia de Marketing e Gestão</h2>
-                        <p>Ao empregar estratégias de marketing e gestão, almejamos construir uma base sólida de confiança para o seu negócio, utilizando elementos como depoimentos e avaliações. Estamos aqui para destacar o que há de melhor em seus serviços e produtos, transformando sua presença online numa autêntica representação do valor que você oferece ao mercado.</p>
-                        <h3 class="color-vermelho">Conheça nosso case de sucesso!</h3>
-                        <a href="" class="btn">Case Ômega</a>
-                    </div>
-                </div>
-                <div id="container__objetivo" class="background-preto centralizar padding-sessoes">
-                    <div class="centralizar metade alinhamento-coluna color-branco">
-                        <h2>Nosso Objetivo</h2>
-                        <p>Nosso principal propósito é dar merecida visibilidade a empreendimentos promissores, evidenciando não somente as qualidades de seus serviços e produtos, mas também validando sua excelência por meio de prova social.</p>
-                    </div>
-                    <div class="centralizar metade">
-                        <img id="imagem__container_objetivo" src="../assets/images/fotos/pexels-olia-danilevich-5313361.jpg" alt="Aperto de mão">
-                    </div>
-                </div>
-                <div class="container__pedir_analise background-branco centralizar">
-                    <h2>Quero melhorar meus resultados!</h2>
-                    <a href="" class="btn">Fale Conosco</a>
                 </div>
             </section>
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">

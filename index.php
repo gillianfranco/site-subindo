@@ -20,7 +20,7 @@
                     <ul>
                         <li><a href="pages/sobre.php"><p class="color-vermelho">Empresa</p></a></li>
                         <li><p class="color-vermelho" id="hover__links_secundarios">Serviços</p></li>
-                        <li><a href=""><p class="color-vermelho">Contato</p></a></li>
+                        <li><a href="pages/contato.php"><p class="color-vermelho">Contato</p></a></li>
                     </ul>
                 </nav>
                 <nav id="lista__links_secundarios">
