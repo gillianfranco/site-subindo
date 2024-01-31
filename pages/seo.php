@@ -33,11 +33,36 @@
                     </ul>
                 </nav>
             </header>
-            <section class="container__pedir_analise background-branco centralizar">
-                
-
+            <section>
+                <div id="container__above_the_fold" class="background-preto centralizar padding-sessoes">
+                    <div class="centralizar metade alinhamento-coluna">
+                        <h1 class="color-vermelho">Otimização para Motores de Busca (SEO)</h1>
+                        <p class="color-branco">SEO, ou Search Engine Optimization (Otimização para Motores de Busca), refere-se às práticas e técnicas que tornam um site mais visível nos resultados de pesquisa online. O objetivo é melhorar a posição de um site nos motores de busca como o Google, tornando-o mais acessível para as pessoas que procuram informações relevantes.</p>
+                    </div>
+                    <div class="centralizar metade">
+                        <abbr title="https://pt.vecteezy.com/vetor-gratis/marketing">
+                            <img id="imagem__above_the_fold_seo" src="../assets/images/fotos/imagem-above-the-fold-seo.png" alt="Tréfego Pago">
+                        </abbr>
+                    </div>
+                </div>
+                <div id="container__metodologia" class="background-preto centralizar padding-sessoes">
+                    <div class="centralizar metade">
+                        <img id="imagem__container_metodologia" src="../assets/images/fotos/otimizando-site-seo.png" alt="Otimizando o Site para SEO">
+                    </div>
+                    <div class="centralizar metade alinhamento-coluna color-branco">
+                        <p>A importância do SEO reside no fato de que a maioria das pessoas confia nos motores de busca para encontrar produtos, serviços e informações. Ao otimizar seu site para SEO, aumentam as chances de ser encontrado por potenciais clientes.</p>
+                    </div>
+                </div>
+                <div id="container__objetivo" class="background-preto centralizar padding-sessoes">
+                    <div class="centralizar metade alinhamento-coluna color-branco">
+                        <p>Nossa Agência oferece serviços especializados em SEO, ajudando as empresas a melhorar sua visibilidade online, atrair mais visitantes qualificados e destacar-se em um mercado digital competitivo.</p>
+                    </div>
+                    <div class="centralizar metade">
+                        <img id="imagem__container_objetivo" src="../assets/images/fotos/estrategia-seo.jpg" alt="Estratégia de SEO">
+                    </div>
+                </div>
                 <div class="container__pedir_analise background-branco centralizar">
-                    <h2>Quero dar visibilidade ao meu negócio!</h2>
+                    <h2>Quero melhorar meus resultados!</h2>
                     <a href="" class="btn">Fale Conosco</a>
                 </div>
             </section>

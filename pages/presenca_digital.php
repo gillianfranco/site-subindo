@@ -33,11 +33,36 @@
                     </ul>
                 </nav>
             </header>
-            <section class="container__pedir_analise background-branco centralizar">
-                
-
+            <section>
+                <div id="container__above_the_fold" class="background-preto centralizar padding-sessoes">
+                    <div class="centralizar metade alinhamento-coluna">
+                        <h1 class="color-vermelho">Presença Digital</h1>
+                        <p class="color-branco">Presença digital refere-se à representação online de uma empresa ou marca em diversos canais da internet, como site, redes sociais e outros. Ter uma forte presença digital significa estar ativo e visível online, proporcionando aos clientes e potenciais clientes acesso fácil a informações relevantes sobre a empresa.</p>
+                    </div>
+                    <div class="centralizar metade">
+                        <abbr title="https://pt.vecteezy.com/vetor-gratis/marketing">
+                            <img id="imagem__above_the_fold_presenca_digital" src="../assets/images/fotos/imagem-above-the-fold-presenca-digital.png" alt="Presença Digital">
+                        </abbr>
+                    </div>
+                </div>
+                <div id="container__metodologia" class="background-preto centralizar padding-sessoes">
+                    <div class="centralizar metade">
+                        <img id="imagem__container_metodologia" src="../assets/images/fotos/presenca-internet-redes-socias.png" alt="Presença na Internet pelas Redes Sociais">
+                    </div>
+                    <div class="centralizar metade alinhamento-coluna color-branco">
+                        <p>A importância da presença digital está no fato de que a maioria das pessoas utiliza a internet para buscar informações, produtos e serviços. Uma presença digital robusta permite que a empresa seja facilmente encontrada, estabeleça conexões com o público, construa confiança e promova sua marca de maneira eficaz.</p>
+                    </div>
+                </div>
+                <div id="container__objetivo" class="background-preto centralizar padding-sessoes">
+                    <div class="centralizar metade alinhamento-coluna color-branco">
+                        <p>Nossa Agência oferece serviços especializados em construção e fortalecimento da presença digital. Realizamos a administração de perfis de redes sociais, criação de sites, landing pages, artes visuais e editamos vídeos.</p>
+                    </div>
+                    <div class="centralizar metade">
+                        <img id="imagem__container_objetivo" src="../assets/images/fotos/admin-redes-socias-presenca-digital.jpg" alt="Administração da Redes Sociais">
+                    </div>
+                </div>
                 <div class="container__pedir_analise background-branco centralizar">
-                    <h2>Quero dar visibilidade ao meu negócio!</h2>
+                    <h2>Quero melhorar meus resultados!</h2>
                     <a href="" class="btn">Fale Conosco</a>
                 </div>
             </section>
