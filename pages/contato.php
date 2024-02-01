@@ -19,17 +19,18 @@
                     </div>
                     <ul>
                         <li><a href=""><p class="color-vermelho">Empresa</p></a></li>
-                        <li><p class="color-vermelho" id="hover__links_secundarios">Serviços</p></li>
+                        <li id="click__links_secundarios">
+                            <p class="color-vermelho">Serviços</p>
+                            <nav id="lista__links_secundarios">
+                                <ul>
+                                    <li><a href="google_meu_negocio.php"><p class="color-vermelho">Google Meu Negócio</p></a></li>
+                                    <li><a href="seo.php"><p class="color-vermelho">SEO</p></a></li>
+                                    <li><a href="trafego_pago.php"><p class="color-vermelho">Tráfego</p></a></li>
+                                    <li><a href="presenca_digital.php"><p class="color-vermelho">Presença Digital</p></a></li>
+                                </ul>
+                            </nav>
+                        </li>
                         <li><a href="contato.php"><p class="color-vermelho">Contato</p></a></li>
-                    </ul>
-                </nav>
-                <nav id="lista__links_secundarios">
-                    <ul>
-                        <li><a href=""><p class="color-vermelho">Google Meu Negócio</p></a></li>
-                        <li><a href=""><p class="color-vermelho">SEO</p></a></li>
-                        <li><a href=""><p class="color-vermelho">Tráfego</p></a></li>
-                        <li><a href=""><p class="color-vermelho">Social Media</p></a></li>
-                        <li><a href=""><p class="color-vermelho">Sites</p></a></li>
                     </ul>
                 </nav>
             </header>
@@ -44,8 +45,18 @@
                         <p class="color-branco">Rua Santos Dumont, 1515 - Lídice, Uberlândia - MG, 38400-062</p>
                         <h3 class="color-vermelho">Contatos</h3>
                         <ul class="color-branco alinhamento-coluna">
-                            <li><h3 class="color-branco">WhatsApp: </h3><p><a href="https://wa.me/5534" class="color-branco">(34)</a></p></li>
-                            <li><h3 class="color-branco">Email </h3><p class="color-branco"><a href="mailto:support@subindo.agencia@gmail.com" class="color-branco">subindo.agencia@gmail.com</a></p></li>
+                            <li class="alinhamento-linha">
+                                <h3 class="color-branco">WhatsApp</h3>
+                                <p>
+                                    <a href="https://wa.me/5534992881-8153" class="color-branco">(34) 99281-8153</a>
+                                </p>
+                            </li>
+                            <li>
+                                <h3 class="color-branco">Email</h3>
+                                <p class="color-branco">
+                                    <a href="mailto:support@subindo.agencia@gmail.com" class="color-branco">subindo.agencia@gmail.com</a>
+                                </p>
+                            </li>
                         </ul>
                     </div>
                 </div>

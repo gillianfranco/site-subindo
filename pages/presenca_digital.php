@@ -19,17 +19,18 @@
                     </div>
                     <ul>
                         <li><a href="sobre.php"><p class="color-vermelho">Empresa</p></a></li>
-                        <li><p class="color-vermelho" id="hover__links_secundarios">Serviços</p></li>
+                        <li id="click__links_secundarios">
+                            <p class="color-vermelho">Serviços</p>
+                            <nav id="lista__links_secundarios">
+                                <ul>
+                                    <li><a href="google_meu_negocio.php"><p class="color-vermelho">Google Meu Negócio</p></a></li>
+                                    <li><a href="seo.php"><p class="color-vermelho">SEO</p></a></li>
+                                    <li><a href="trafego_pago.php"><p class="color-vermelho">Tráfego</p></a></li>
+                                    <li><a href=""><p class="color-vermelho">Presença Digital</p></a></li>
+                                </ul>
+                            </nav>
+                        </li>
                         <li><a href="contato.php"><p class="color-vermelho">Contato</p></a></li>
-                    </ul>
-                </nav>
-                <nav id="lista__links_secundarios">
-                    <ul>
-                        <li><a href=""><p class="color-vermelho">Google Meu Negócio</p></a></li>
-                        <li><a href=""><p class="color-vermelho">SEO</p></a></li>
-                        <li><a href=""><p class="color-vermelho">Tráfego</p></a></li>
-                        <li><a href=""><p class="color-vermelho">Social Media</p></a></li>
-                        <li><a href=""><p class="color-vermelho">Sites</p></a></li>
                     </ul>
                 </nav>
             </header>

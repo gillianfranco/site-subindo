@@ -23,11 +23,10 @@
                             <p class="color-vermelho">Serviços</p>
                             <nav id="lista__links_secundarios">
                                 <ul>
-                                    <li><a href=""><p class="color-vermelho">Google Meu Negócio</p></a></li>
-                                    <li><a href=""><p class="color-vermelho">SEO</p></a></li>
-                                    <li><a href=""><p class="color-vermelho">Tráfego</p></a></li>
-                                    <li><a href=""><p class="color-vermelho">Social Media</p></a></li>
-                                    <li><a href=""><p class="color-vermelho">Sites</p></a></li>
+                                    <li><a href="pages/google_meu_negocio.php"><p class="color-vermelho">Google Meu Negócio</p></a></li>
+                                    <li><a href="pages/presenca_digital.php"><p class="color-vermelho">Presença Digital</p></a></li>
+                                    <li><a href="pages/seo.php"><p class="color-vermelho">SEO</p></a></li>
+                                    <li><a href="pages/trafego_pago.php"><p class="color-vermelho">Tráfego Pago</p></a></li>
                                 </ul>
                             </nav>
                         </li>
@@ -67,10 +66,10 @@
                         <p>Oferecemos uma gama abrangente de serviços de marketing digital projetados para elevar a sua presença online e impulsionar o sucesso do seu negócio. Confira como podemos transformar a sua marca:</p>
                         <nav>
                             <ul class="alinhamento-coluna">
-                                <li><a href="pages/google_meu_negocio.php">Google Meu Negócio</a></li>
-                                <li><a href="pages/presenca_digital.php">Presença Digital</a></li>
-                                <li><a href="pages/seo.php">Otimização para Motores de Busca (SEO)</a></li>
-                                <li><a href="pages/trafego_pago.php">Tráfego Pago</a></li>
+                                <li><a class="hover_link" href="pages/google_meu_negocio.php">Google Meu Negócio</a></li>
+                                <li><a class="hover_link"  href="pages/presenca_digital.php">Presença Digital</a></li>
+                                <li><a class="hover_link"  href="pages/seo.php">Otimização para Motores de Busca (SEO)</a></li>
+                                <li><a class="hover_link"  href="pages/trafego_pago.php">Tráfego Pago</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -101,7 +100,13 @@
                     </div>
                     <div class="centralizar metade">
                         <article>
-                            <h3 class="color-vermelho">lorem fdgjhrçkqahç</h3>
+                            <h3 class="color-vermelho">Sobre a Empresa</h3>
+                            <ul class="alinhamento-coluna">
+                                <li><a class="hover_link" href="pages/sobre.php">Empresa</a></li>
+                            </ul>
+                        </article>
+                        <article>
+                            <h3 class="color-vermelho">Serviços</h3>
                             <ul class="alinhamento-coluna">
                                 <li><a href="">lorem</a></li>
                                 <li><a href="">lorem</a></li>
@@ -110,16 +115,7 @@
                             </ul>
                         </article>
                         <article>
-                            <h3 class="color-vermelho">lorem fdgjhrçkqahç</h3>
-                            <ul class="alinhamento-coluna">
-                                <li><a href="">lorem</a></li>
-                                <li><a href="">lorem</a></li>
-                                <li><a href="">lorem</a></li>
-                                <li><a href="">lorem</a></li>
-                            </ul>
-                        </article>
-                        <article>
-                            <h3 class="color-vermelho">lorem fdgjhrçkqahç</h3>
+                            <h3 class="color-vermelho">Cases de Sucesso</h3>
                             <ul class="alinhamento-coluna">
                                 <li><a href="">lorem</a></li>
                                 <li><a href="">lorem</a></li>
