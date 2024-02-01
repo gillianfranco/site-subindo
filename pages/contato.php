@@ -45,16 +45,16 @@
                         <p class="color-branco">Rua Santos Dumont, 1515 - Lídice, Uberlândia - MG, 38400-062</p>
                         <h3 class="color-vermelho">Contatos</h3>
                         <ul class="color-branco alinhamento-coluna">
-                            <li class="alinhamento-linha">
-                                <h3 class="color-branco">WhatsApp</h3>
+                            <li class="alinhamento-linha" style="margin-bottom: 0.2em">
+                                <p class="color-branco">WhatsApp</p>
                                 <p>
-                                    <a href="https://wa.me/5534992881-8153" class="color-branco">(34) 99281-8153</a>
+                                    <a href="https://wa.me/5534992881-8153" class="color-branco hover_link">(34) 99281-8153</a>
                                 </p>
                             </li>
                             <li>
-                                <h3 class="color-branco">Email</h3>
+                                <p class="color-branco">Email</p>
                                 <p class="color-branco">
-                                    <a href="mailto:support@subindo.agencia@gmail.com" class="color-branco">subindo.agencia@gmail.com</a>
+                                    <a href="mailto:support@subindo.agencia@gmail.com" class="color-branco hover_link">subindo.agencia@gmail.com</a>
                                 </p>
                             </li>
                         </ul>

@@ -98,28 +98,40 @@
                     <div class="centralizar metade">
                         <img id="imagem__logo_rodape" src="assets/images/logos/logo-subindo900x248.png" alt="Logo Subindo">
                     </div>
-                    <div class="centralizar metade">
-                        <article>
-                            <h3 class="color-vermelho">Sobre a Empresa</h3>
-                            <ul class="alinhamento-coluna">
-                                <li><a class="hover_link" href="pages/sobre.php">Empresa</a></li>
-                            </ul>
-                        </article>
-                        <article>
-                            <h3 class="color-vermelho">Serviços</h3>
-                            <ul class="alinhamento-coluna">
-                                <li><a href="">Google Meu Negócio</a></li>
-                                <li><a href="">Presença Digital</a></li>
-                                <li><a href="">SEO</a></li>
-                                <li><a href="">Tráfego Pago</a></li>
-                            </ul>
-                        </article>
-                        <article>
-                            <h3 class="color-vermelho">Cases de Sucesso</h3>
-                            <ul class="alinhamento-coluna">
-                                <li><a href="">Ômega ADM</a></li>
-                            </ul>
-                        </article>
+                    <div id="links__footer" class="centralizar metade">
+                        <table>
+                            <tr>
+                                <td>
+                                    <h3 class="color-vermelho">Sobre</h3>
+                                </td>
+                                <td>
+                                    <h3 class="color-vermelho">Serviços</h3>
+                                </td>
+                                <td>
+                                    <h3 class="color-vermelho">Cases</h3>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td valign="top">
+                                    <ul class="alinhamento-coluna">
+                                        <li><a class="hover_link" href="pages/sobre.php">Empresa</a></li>
+                                    </ul>
+                                </td>
+                                <td valign="top">
+                                    <ul class="alinhamento-coluna">
+                                        <li><a class="hover_link" href="">Google Meu Negócio</a></li>
+                                        <li><a class="hover_link" href="">Presença Digital</a></li>
+                                        <li><a class="hover_link" href="">SEO</a></li>
+                                        <li><a class="hover_link" href="">Tráfego Pago</a></li>
+                                    </ul>
+                                </td>
+                                <td valign="top">
+                                    <ul class="alinhamento-coluna">
+                                        <li><a class="hover_link" href="">Ômega Administradora de Condomínios</a></li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
                 <div id="container__footer" class="centralizar">

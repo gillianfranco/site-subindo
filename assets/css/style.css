@@ -164,11 +164,11 @@ footer{
     flex-direction: row;
     justify-content: space-between;
 }
-footer div div article{
-    margin-right: 1em;
+footer div#links__footer table{
+    width: 100%;
 }
-footer ul{
-    margin-top: .5em;
+footer div#links__footer td{
+    text-align: left;
 }
 footer a{
     color: var(--branco);
