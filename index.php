@@ -57,13 +57,12 @@
                 </div>
                 <div id="container__servicos" class="padding-sessoes background-preto centralizar">
                     <div class="centralizar metade">
-                        <h1 class="color-vermelho">O que fazemos?</h1>
                         <abbr title="https://pt.vecteezy.com/fotos-gratis/gest%C3%A3o">
                             <img id="imagem__servicos"  src="assets/images/fotos/vecteezy_mao-de-empresario-pressionando-um-botao-imaginario_5301751.png" alt="Foto Gestão">
                         </abbr>
                     </div>
                     <div class="centralizar color-branco metade">
-                        <h2>Serviços</h2>
+                        <h1 class="color-vermelho">O que fazemos?</h1>
                         <p>Oferecemos uma gama abrangente de serviços de marketing digital projetados para elevar a sua presença online e impulsionar o sucesso do seu negócio. Confira como podemos transformar a sua marca:</p>
                         <nav>
                             <ul class="alinhamento-coluna">
@@ -123,23 +122,23 @@
                         </article>
                     </div>
                 </div>
-                <div class="centralizar">
+                <div id="container__footer" class="centralizar">
                     <p class="color-branco">&copy; 2024 - Agência Subindo | Todos os direitos reservados.</p>
                     <table>
                         <tr>
                             <td>
                                 <a href="" target="_blank" class="icones-redes">
-                                    <img src="assets/images/icones/icons8-whatsapp-48.png" alt="Icone WhatsApp">
+                                    <img class="imagens-rodape" src="assets/images/icones/icons8-whatsapp-48.png" alt="Icone WhatsApp">
                                 </a>
                             </td>
                             <td>
                                 <a href="" target="_blank" class="icones-redes">
-                                    <img src="assets/images/icones/icons8-instagram-48.png" alt="Icone Instagram">
+                                    <img class="imagens-rodape" src="assets/images/icones/icons8-instagram-48.png" alt="Icone Instagram">
                                 </a>
                             </td>
                             <td>
                                 <a href="" target="_blank" class="icones-redes">
-                                    <img src="assets/images/icones/icons8-email-48.png" alt="Icone Email">
+                                    <img class="imagens-rodape" src="assets/images/icones/icons8-email-48.png" alt="Icone Email">
                                 </a>
                             </td>
                         </tr>
