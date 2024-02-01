@@ -244,27 +244,80 @@ div.container__pedir_analise{
 div#container__metodologia h3{
     margin: 1em 0 .5em 0;
 }
+div#container__cadastro h3{
+    margin: 1em 0 .5em 0;
+}
+div#container__presenca h3{
+    margin: 1em 0 .5em 0;
+}
+div#container__importancia h3{
+    margin: 1em 0 .5em 0;
+}
+div#container__atrair h3{
+    margin: 1em 0 .5em 0;
+}
 
-/* ---------------------- Imagens ------------------------- */
+/* ------------------------- Imagens ------------------------- */
+
+/* ---------------------- Imagens index ------------------------- */
 img#imagem__above_the_fold, img#imagem__titulo_above_the_fold{
     width: 88vh;
 }
+img#imagem__container_metodologia{
+    width: 65vh;
+}
+img#imagem__container_objetivo{
+    width: 78vh;
+}
+
+/* ---------------------- Imagens google meu negócio ------------------------- */
 img#imagem__above_the_fold_meu_negocio{
     width: 98vh;
     margin-left: 4em;
 }
+img#imagem__container_cadastro{
+    width: 65vh;
+}
+img#imagem__container_estrategia{
+    width: 78vh;
+}
+
+/* ---------------------- Imagens preseça digital ------------------------- */
 img#imagem__above_the_fold_presenca_digital{
     width: 88vh;
     margin-left: 5em;
 }
+img#imagem__container_presenca{
+    width: 65vh;
+}
+img#imagem__container_administracao{
+    width: 78vh;
+}
+
+/* ---------------------- Imagens seo ------------------------- */
 img#imagem__above_the_fold_seo{
     width: 88vh;
     margin-left: 4em;
 }
+img#imagem__container_importancia{
+    width: 65vh;
+}
+img#imagem__container_melhorar{
+    width: 78vh;
+}
+
+/* ---------------------- Imagens tráfego pago ------------------------- */
 img#imagem__above_the_fold_trafego_pago{
     width: 88vh;
     margin-left: 5em;
 }
+img#imagem__container_atrair{
+    width: 65vh;
+}
+img#imagem__container_campanhas{
+    width: 78vh;
+}
+
 img#imagem__sobre_nos{
     width: 75vh;
 }
@@ -274,12 +327,7 @@ img#imagem__servicos{
 img#imagem__container_cases{
     width: 70vh;
 }
-img#imagem__container_metodologia{
-    width: 65vh;
-}
-img#imagem__container_objetivo{
-    width: 78vh;
-}
+
 footer div:nth-child(1) img{
     width: 12em;
 }
@@ -317,12 +365,25 @@ footer div:nth-child(1) img{
         flex-direction: column-reverse;
     }
 
-    /* Containers */
-    main section #container__above_the_fold {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    /* Above the fold */
+    main #imagem__titulo_above_the_fold {
+        width: 90vw;
     }
+    img#imagem__above_the_fold_meu_negocio{
+        width: 50vh;
+        margin: 0;
+    }
+    img#imagem__above_the_fold_presenca_digital{
+        width: 88vh;
+    }
+    img#imagem__above_the_fold_seo{
+        width: 88vh;
+    }
+    img#imagem__above_the_fold_trafego_pago{
+        width: 88vh;
+    }
+
+    /* Containers index */
     div#container__above_the_fold{
         height: 97vh;   
     }
@@ -334,6 +395,11 @@ footer div:nth-child(1) img{
     }
     div#container__cases h1 {
         margin-bottom: 0.3em;
+    }
+
+    /* Containers google meu negócio */
+    div#container__estrategia {
+        flex-direction: column-reverse;
     }
 
     /* ---------------------- Container Pedir Análise ------------------------- */

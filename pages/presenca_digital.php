@@ -46,20 +46,20 @@
                         </abbr>
                     </div>
                 </div>
-                <div id="container__metodologia" class="background-preto centralizar padding-sessoes">
+                <div id="container__presenca" class="background-preto centralizar padding-sessoes">
                     <div class="centralizar metade">
-                        <img id="imagem__container_metodologia" src="../assets/images/fotos/presenca-internet-redes-socias.png" alt="Presença na Internet pelas Redes Sociais">
+                        <img id="imagem__container_presenca" src="../assets/images/fotos/presenca-internet-redes-socias.png" alt="Presença na Internet pelas Redes Sociais">
                     </div>
                     <div class="centralizar metade alinhamento-coluna color-branco">
                         <p>A importância da presença digital está no fato de que a maioria das pessoas utiliza a internet para buscar informações, produtos e serviços. Uma presença digital robusta permite que a empresa seja facilmente encontrada, estabeleça conexões com o público, construa confiança e promova sua marca de maneira eficaz.</p>
                     </div>
                 </div>
-                <div id="container__objetivo" class="background-preto centralizar padding-sessoes">
+                <div id="container__administracao" class="background-preto centralizar padding-sessoes">
                     <div class="centralizar metade alinhamento-coluna color-branco">
                         <p>Nossa Agência oferece serviços especializados em construção e fortalecimento da presença digital. Realizamos a administração de perfis de redes sociais, criação de sites, landing pages, artes visuais e editamos vídeos.</p>
                     </div>
                     <div class="centralizar metade">
-                        <img id="imagem__container_objetivo" src="../assets/images/fotos/admin-redes-socias-presenca-digital.jpg" alt="Administração da Redes Sociais">
+                        <img id="imagem__container_administracao" src="../assets/images/fotos/admin-redes-socias-presenca-digital.jpg" alt="Administração da Redes Sociais">
                     </div>
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">

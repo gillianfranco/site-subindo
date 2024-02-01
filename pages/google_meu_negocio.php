@@ -47,20 +47,20 @@
                         </abbr>
                     </div>
                 </div>
-                <div id="container__metodologia" class="background-preto centralizar padding-sessoes">
+                <div id="container__cadastro" class="background-preto centralizar padding-sessoes">
                     <div class="centralizar metade">
-                        <img id="imagem__container_metodologia" src="../assets/images/fotos/foto-cadastro-google-negocio.png" alt="Foto Gráfico">
+                        <img id="imagem__container_cadastro" src="../assets/images/fotos/foto-cadastro-google-negocio.png" alt="Cadastro no Google Meu Negócio">
                     </div>
                     <div class="centralizar metade alinhamento-coluna color-branco">
                         <p>Ao criar um perfil no Google Meu Negócio, você deve fornecer informações importantes, como horário de funcionamento, localização, avaliações e fotos, tornando mais fácil para os clientes encontrarem e conhecerem os seus serviços ou produtos oferecidos. É uma maneira eficaz de melhorar a visibilidade online e atrair clientes locais.</p>
                     </div>
                 </div>
-                <div id="container__objetivo" class="background-preto centralizar padding-sessoes">
+                <div id="container__estrategia" class="background-preto centralizar padding-sessoes">
                     <div class="centralizar metade alinhamento-coluna color-branco">
                         <p>Nossa Agência cuida de todos os aspectos relacionados ao Google Meu Negócio, desde a criação inicial até a implementação de boas práticas e o desenvolvimento de métodos estratégicos para a coleta de avaliações. Garantimos que sua presença no Google seja otimizada para gerar o máximo de visibilidade e credibilidade.</p>
                     </div>
                     <div class="centralizar metade">
-                        <img id="imagem__container_objetivo" src="../assets/images/fotos/marketing-estrategia.jpg" alt="Estratégia de Marketing">
+                        <img id="imagem__container_estrategia" src="../assets/images/fotos/marketing-estrategia.jpg" alt="Estratégia de Marketing">
                     </div>
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
