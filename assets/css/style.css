@@ -109,6 +109,10 @@ a.btn:hover{
     background-color: var(--vermelho);
 }
 
+.margem-cima {
+    margin-top: 1em;
+}
+
 /* ---------------------------------------------------- Menu --------------------------------------------- */
 main header{
     position: sticky;
@@ -206,7 +210,7 @@ div#container__above_the_fold_contato li p a{
 }
 
 /* ---------------------- Sessões ------------------------- */
-div[id^="container__"]:not(div#container__cases), div.container__pedir_analise, footer > div{
+div[id^="container__"]:not(div#container__cases, div#container__metodologia, div#container__cadastro, div#container__presenca, div#container__importancia, div#container__atrair, div#container__above_the_fold_contato), div.container__pedir_analise, footer > div{
     flex-direction: row;
 }
 
@@ -360,6 +364,7 @@ footer div:nth-child(1) img{
     width: 12em;
 }
 
+
 /* ----------------------------------------------- Responsividade ------------------------------------------- */
 
 @media only screen and (orientation: portrait) {
@@ -389,7 +394,7 @@ footer div:nth-child(1) img{
     }
     
     /* ---------------------- Sessões ------------------------- */
-    div[id^="container__"]:not(div#container__cases), div.container__pedir_analise, footer > div{
+    div[id^="container__"]:not(div#container__cases, div#container__metodologia,  div#container__cadastro, div#container__presenca, div#container__importancia, div#container__atrair, div#container__above_the_fold_contato), div.container__pedir_analise, footer > div{
         flex-direction: column-reverse;
     }
 
@@ -402,32 +407,106 @@ footer div:nth-child(1) img{
         margin: 0;
     }
     img#imagem__above_the_fold_presenca_digital{
-        width: 88vh;
+        width: 50vh;
+        margin: 0;
     }
     img#imagem__above_the_fold_seo{
-        width: 88vh;
+        width: 50vh;
+        margin: 0;
     }
     img#imagem__above_the_fold_trafego_pago{
-        width: 88vh;
+        width: 50vh;
+        margin: 0;
+    }
+
+    /* Empresa */
+    div#container__metodologia {
+        flex-direction: column;
+    }
+    img#imagem__container_metodologia {
+        width: 45vh;
+        margin-bottom: 2em;
+    }
+    img#imagem__container_objetivo {
+        width: 45vh;
+        margin-bottom: 1.5em;
     }
 
     /* Containers index */
     div#container__above_the_fold{
-        height: 97vh;   
+        height: 97vh;
     }
     div#container__sobre_nos {
         justify-content: center;
     }
     div#container__cases .alinhamento-linha {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     div#container__cases h1 {
         margin-bottom: 0.3em;
     }
 
     /* Containers google meu negócio */
-    div#container__estrategia {
-        flex-direction: column-reverse;
+    div#container__cadastro {
+        flex-direction: column;
+    }
+    img#imagem__container_cadastro {
+        width: 45vh;
+        margin-bottom: 2em;
+    }
+    img#imagem__container_estrategia {
+        width: 45vh;
+        margin-bottom: 1.5em;
+    }
+
+    /* Containers presença digital */
+    div#container__presenca {
+        flex-direction: column;
+    }
+    img#imagem__container_presenca {
+        width: 45vh;
+        margin-bottom: 2em;
+    }
+    img#imagem__container_administracao {
+        width: 45vh;
+        margin-bottom: 1.5em;
+    }
+
+    /* Containers seo */
+    div#container__above_the_fold{
+        height: 115vh;
+    }
+    div#container__importancia {
+        flex-direction: column;
+    }
+    img#imagem__container_importancia {
+        width: 45vh;
+        margin-bottom: 2em;
+    }
+    img#imagem__container_melhorar {
+        width: 45vh;
+        margin-bottom: 1.5em;
+    }
+
+    /* Containers tráfego pago */
+    div#container__atrair {
+        flex-direction: column;
+    }
+    img#imagem__container_atrair {
+        width: 45vh;
+        margin-bottom: 2em;
+    }
+    img#imagem__container_campanhas {
+        width: 45vh;
+        margin-bottom: 1.5em;
+    }
+
+    /* Container contatos */
+    div#container__above_the_fold_contato {
+        flex-direction: column;
+    }
+    ul#container__contatos a {
+        font-size: 1.1em;
     }
 
     /* ---------------------- Container Pedir Análise ------------------------- */
