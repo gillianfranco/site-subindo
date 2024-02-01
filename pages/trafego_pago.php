@@ -46,20 +46,20 @@
                         </abbr>
                     </div>
                 </div>
-                <div id="container__metodologia" class="background-preto centralizar padding-sessoes">
+                <div id="container__atrair" class="background-preto centralizar padding-sessoes">
                     <div class="centralizar metade">
-                        <img id="imagem__container_metodologia" src="../assets/images/fotos/importancia-trafego-pago.png" alt="Importância do Tráfego pago">
+                        <img id="imagem__container_atrair" src="../assets/images/fotos/importancia-trafego-pago.png" alt="Importância do Tráfego pago">
                     </div>
                     <div class="centralizar metade alinhamento-coluna color-branco">
                         <p>A importância do tráfego pago está em oferecer uma maneira rápida e direta de atrair visitantes qualificados para um site. É uma abordagem eficaz para aumentar a visibilidade, promover produtos ou serviços específicos e gerar conversões rapidamente.</p>
                     </div>
                 </div>
-                <div id="container__objetivo" class="background-preto centralizar padding-sessoes">
+                <div id="container__campanhas" class="background-preto centralizar padding-sessoes">
                     <div class="centralizar metade alinhamento-coluna color-branco">
                         <p>Nossa Agência oferece serviços especializados em tráfego pago, projetando campanhas publicitárias estratégicas para maximizar o retorno sobre o investimento.</p>
                     </div>
                     <div class="centralizar metade">
-                        <img id="imagem__container_objetivo" src="../assets/images/fotos/campanha-trafego-pago.jpg" alt="Campanha de Tráfego Pago">
+                        <img id="imagem__container_campanhas" src="../assets/images/fotos/campanha-trafego-pago.jpg" alt="Campanha de Tráfego Pago">
                     </div>
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
