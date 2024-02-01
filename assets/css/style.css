@@ -50,6 +50,7 @@ a{
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100%;
 }
 .block_centralizado{
     display: flex;
@@ -69,7 +70,7 @@ a{
     flex-direction: column;
 }
 .metade{
-    width: 50%;
+    width: 50%; 
 }
 
 /* Cores */
@@ -278,4 +279,94 @@ img#imagem__container_objetivo{
 }
 footer div:nth-child(1) img{
     width: 12em;
+}
+
+/* ----------------------------------------------- Responsividade ------------------------------------------- */
+
+@media only screen and (orientation: portrait) {
+    header {
+        display: none;
+    }
+    /* ------- Classes ------- */
+    .metade{
+        width: 100%;
+    }
+    .padding-sessoes{
+        padding: 1em 1.5em;
+    }
+
+    /* Caracteres */
+    h1 {
+        font-size: 2em;
+    }
+    h2{
+        font-size: 1.3em;
+    }
+    h3{
+        font-size: .9em;
+    }
+    p{
+        font-size: .8em;
+    }
+    
+    /* ---------------------- Sessões ------------------------- */
+    div[id^="container__"]:not(div#container__cases), div.container__pedir_analise, footer > div{
+        flex-direction: column-reverse;
+    }
+
+    /* Containers */
+    main section #container__above_the_fold {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div#container__above_the_fold{
+        height: 97vh;   
+    }
+    div#container__sobre_nos {
+        justify-content: center;
+    }
+    div#container__cases .alinhamento-linha {
+        flex-direction: column-reverse;
+    }
+    div#container__cases h1 {
+        margin-bottom: 0.3em;
+    }
+
+    /* ---------------------- Container Pedir Análise ------------------------- */
+    div.container__pedir_analise{
+        text-align: center;
+        flex-direction: column;
+    }
+    div.container__pedir_analise a {
+        margin-top: 20px;
+    }
+
+    /* --------------- Imagens --------------- */
+    img#imagem__sobre_nos {
+        width: 50vh;
+    }
+    img#imagem__servicos {
+        display: none;
+    }
+    main #imagem__titulo_above_the_fold {
+        width: 90vw;
+    }
+    img#imagem__above_the_fold {
+        width: 50vh;
+    }
+    img#imagem__container_cases {
+        width: 50vh;
+        padding-bottom: 1em;
+    }
+    img.imagens-rodape {
+        width: 8vh;
+    }
+    img#imagem__logo_rodape {
+        margin-top: 1.5em;
+    }
+    
+    footer div:nth-child(2) {
+        margin-top: 1.5em;
+    }
 }
