@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../../assets/css/style.css">
 
-        <link rel="shortcut icon" href="../assets/images/favicon/favicon.png">
+        <link rel="shortcut icon" href="../../assets/images/favicon/favicon.png">
 
         <title>Subindo | Agência de Marketing Digital</title>
     </head>
@@ -15,12 +15,12 @@
             <header class="background-preto">
                 <nav id="lista__links_principais">
                     <div>
-                        <a href="../"><img src="../assets/images/logos/logo-subindo900x248.png" alt="Logo Subindo Agência"></a>
+                        <a href="../../"><img src="../../assets/images/logos/logo-subindo900x248.png" alt="Logo Subindo Agência"></a>
                     </div>
                     <ul>
-                        <li><a href=""><p class="color-vermelho">Empresa</p></a></li>
+                        <li><a href="../sobre.php"><p class="color-vermelho">Empresa</p></a></li>
                         <li><p class="color-vermelho" id="hover__links_secundarios">Serviços</p></li>
-                        <li><a href="contato.php"><p class="color-vermelho">Contato</p></a></li>
+                        <li><a href="../contato.php"><p class="color-vermelho">Contato</p></a></li>
                     </ul>
                 </nav>
                 <nav id="lista__links_secundarios">
@@ -34,26 +34,17 @@
                 </nav>
             </header>
             <section class="container__pedir_analise background-branco centralizar">
-                <div id="container__above_the_fold_contato" class="background-preto centralizar padding-sessoes">
-                    <div class="centralizar metade alinhamento-coluna">
-                        <h1 class="color-vermelho">Fale Conosco</h1>
-                        <h3 class="color-branco">Entenda como podemos te ajudar</h3>
-                    </div>
-                    <div class="centralizar metade alinhamento-coluna">
-                        <h3 class="color-vermelho">Endereço</h3>
-                        <p class="color-branco">Rua Santos Dumont, 1515 - Lídice, Uberlândia - MG, 38400-062</p>
-                        <h3 class="color-vermelho">Contatos</h3>
-                        <ul class="color-branco alinhamento-coluna">
-                            <li><h3 class="color-branco">WhatsApp: </h3><p><a href="https://wa.me/5534" class="color-branco">(34)</a></p></li>
-                            <li><h3 class="color-branco">Email </h3><p class="color-branco"><a href="mailto:support@subindo.agencia@gmail.com" class="color-branco">subindo.agencia@gmail.com</a></p></li>
-                        </ul>
-                    </div>
+                
+
+                <div class="container__pedir_analise background-branco centralizar">
+                    <h2>Quero dar visibilidade ao meu negócio!</h2>
+                    <a href="" class="btn">Fale Conosco</a>
                 </div>
             </section>
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">
                 <div class="centralizar">
                     <div class="centralizar metade">
-                        <img id="imagem__logo_rodape" src="../assets/images/logos/logo-subindo900x248.png" alt="Logo Subindo">
+                        <img id="imagem__logo_rodape" src="../../assets/images/logos/logo-subindo900x248.png" alt="Logo Subindo">
                     </div>
                     <div class="centralizar metade">
                         <article>
@@ -91,17 +82,17 @@
                         <tr>
                             <td>
                                 <a href="" target="_blank" class="icones-redes">
-                                    <img src="../assets/images/icones/icons8-whatsapp-48.png" alt="Icone WhatsApp">
+                                    <img src="../../assets/images/icones/icons8-whatsapp-48.png" alt="Icone WhatsApp">
                                 </a>
                             </td>
                             <td>
                                 <a href="" target="_blank" class="icones-redes">
-                                    <img src="../assets/images/icones/icons8-instagram-48.png" alt="Icone Instagram">
+                                    <img src="../../assets/images/icones/icons8-instagram-48.png" alt="Icone Instagram">
                                 </a>
                             </td>
                             <td>
                                 <a href="" target="_blank" class="icones-redes">
-                                    <img src="../assets/images/icones/icons8-email-48.png" alt="Icone Email">
+                                    <img src="../../assets/images/icones/icons8-email-48.png" alt="Icone Email">
                                 </a>
                             </td>
                         </tr>

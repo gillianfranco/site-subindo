@@ -18,7 +18,7 @@
                         <a href="../"><img src="../assets/images/logos/logo-subindo900x248.png" alt="Logo Subindo Agência"></a>
                     </div>
                     <ul>
-                        <li><a href=""><p class="color-vermelho">Empresa</p></a></li>
+                        <li><a href="sobre.php"><p class="color-vermelho">Empresa</p></a></li>
                         <li><p class="color-vermelho" id="hover__links_secundarios">Serviços</p></li>
                         <li><a href="contato.php"><p class="color-vermelho">Contato</p></a></li>
                     </ul>
@@ -100,5 +100,6 @@
                 </div>
             </footer>
         </main>
+        
     </body>
 </html>
