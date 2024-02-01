@@ -245,9 +245,21 @@ div#container__metodologia h3{
 img#imagem__above_the_fold, img#imagem__titulo_above_the_fold{
     width: 88vh;
 }
-img#imagem__above_the_fold_meu_negocio {
+img#imagem__above_the_fold_meu_negocio{
     width: 98vh;
     margin-left: 4em;
+}
+img#imagem__above_the_fold_presenca_digital{
+    width: 88vh;
+    margin-left: 5em;
+}
+img#imagem__above_the_fold_seo{
+    width: 88vh;
+    margin-left: 4em;
+}
+img#imagem__above_the_fold_trafego_pago{
+    width: 88vh;
+    margin-left: 5em;
 }
 img#imagem__sobre_nos{
     width: 75vh;

@@ -12,7 +12,7 @@
     </head>
     <body>
         <main>
-        <header class="background-preto">
+            <header class="background-preto">
                 <nav id="lista__links_principais">
                     <div>
                         <a href="../"><img src="../assets/images/logos/logo-subindo900x248.png" alt="Logo Subindo Agência"></a>
@@ -41,13 +41,13 @@
                     </div>
                     <div class="centralizar metade">
                         <abbr title="https://pt.vecteezy.com/vetor-gratis/marketing">
-                            <img id="imagem__above_the_fold" src="../assets/images/imagem-above-the-fold/imagem-above-the-fold.png" alt="Tréfego Pago">
+                            <img id="imagem__above_the_fold_trafego_pago" src="../assets/images/fotos/imagem-above-the-fold-trafego-pago.png" alt="Tréfego Pago">
                         </abbr>
                     </div>
                 </div>
                 <div id="container__metodologia" class="background-preto centralizar padding-sessoes">
                     <div class="centralizar metade">
-                        <img id="imagem__container_metodologia" src="../assets/images/fotos/foto-metodologia.png" alt="Foto Gráfico">
+                        <img id="imagem__container_metodologia" src="../assets/images/fotos/importancia-trafego-pago.png" alt="Importância do Tráfego pago">
                     </div>
                     <div class="centralizar metade alinhamento-coluna color-branco">
                         <p>A importância do tráfego pago está em oferecer uma maneira rápida e direta de atrair visitantes qualificados para um site. É uma abordagem eficaz para aumentar a visibilidade, promover produtos ou serviços específicos e gerar conversões rapidamente.</p>
@@ -58,7 +58,7 @@
                         <p>Nossa Agência oferece serviços especializados em tráfego pago, projetando campanhas publicitárias estratégicas para maximizar o retorno sobre o investimento.</p>
                     </div>
                     <div class="centralizar metade">
-                        <img id="imagem__container_objetivo" src="../assets/images/fotos/pexels-olia-danilevich-5313361.jpg" alt="Aperto de mão">
+                        <img id="imagem__container_objetivo" src="../assets/images/fotos/campanha-trafego-pago.jpg" alt="Campanha de Tráfego Pago">
                     </div>
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
