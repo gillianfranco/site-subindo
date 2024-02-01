@@ -109,19 +109,16 @@
                         <article>
                             <h3 class="color-vermelho">Serviços</h3>
                             <ul class="alinhamento-coluna">
-                                <li><a href="">lorem</a></li>
-                                <li><a href="">lorem</a></li>
-                                <li><a href="">lorem</a></li>
-                                <li><a href="">lorem</a></li>
+                                <li><a href="">Google Meu Negócio</a></li>
+                                <li><a href="">Presença Digital</a></li>
+                                <li><a href="">SEO</a></li>
+                                <li><a href="">Tráfego Pago</a></li>
                             </ul>
                         </article>
                         <article>
                             <h3 class="color-vermelho">Cases de Sucesso</h3>
                             <ul class="alinhamento-coluna">
-                                <li><a href="">lorem</a></li>
-                                <li><a href="">lorem</a></li>
-                                <li><a href="">lorem</a></li>
-                                <li><a href="">lorem</a></li>
+                                <li><a href="">Ômega ADM</a></li>
                             </ul>
                         </article>
                     </div>
