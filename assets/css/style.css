@@ -133,9 +133,9 @@ li#click__links_secundarios:hover nav#lista__links_secundarios{
 nav#lista__links_secundarios{
     width: 21%;
     position: absolute;
-    top: 12vh;
     right: 3.2%;
     display: none;
+    background-color: var(--vermelho);
 }
 nav#lista__links_secundarios:before{
     content: "";
@@ -153,6 +153,9 @@ nav#lista__links_secundarios > ul{
     background-color: var(--branco);
     padding: .5em;
     width: 100%;
+}
+nav#lista__links_secundarios ul li:hover{
+    background-color: var(--cinzaClaro);
 }
 
 /* ---------------------------------------------------- Roda pé --------------------------------------------- */
@@ -212,13 +215,13 @@ div#container__servicos nav{
     width: 100%;
     margin-top: 1em;
 }
-div#container__servicos a{
+a.hover_link{
     font-family: 'Agdasima';
     font-size: 1.2em;
     text-decoration: underline;
     color: var(--branco);
 }
-div#container__servicos a:hover{
+a.hover_link:hover{
     color: var(--vermelho);
 }
 
