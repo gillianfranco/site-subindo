@@ -80,7 +80,7 @@
                         <div class="centralizar metade alinhamento-coluna">
                             <h2 class="color-branco">Ômega Administradora de Condomínios</h2>
                             <p class="color-branco">Com a aplicação de estratégias eficientes e utilizando o Google Meu Negócio como parceiro estratégico, estabelecemos confiança e impulsionamos a atração de novos clientes. As avaliações positivas não apenas fortaleceram a reputação da Ômega, mas também se tornaram uma poderosa prova social.</p>
-                            <a href="" class="btn">Saiba mais sobre o case</a>
+                            <a href="pages/cases/case_omega.php" class="btn">Saiba mais sobre o case</a>
                         </div>
                         <div class="centralizar metade alinhamento-coluna">
                             <img id="imagem__container_cases" src="assets/images/fotos/ficha-google-omegaADM.png" alt="Foto Ficha Google da Ômega Administradora">
@@ -90,7 +90,7 @@
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
                     <h2>Quero dar visibilidade ao meu negócio!</h2>
-                    <a href="" class="btn">Fale Conosco</a>
+                    <a href="pages/contato.php" class="btn">Fale Conosco</a>
                 </div>
             </section>
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">
