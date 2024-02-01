@@ -36,15 +36,17 @@
             </header>
             <section class="container__pedir_analise background-branco centralizar">
                 <div id="container__above_the_fold_contato" class="background-preto centralizar padding-sessoes">
-                    <div class="centralizar metade alinhamento-coluna">
+                    <div class="centralizar metade alinhamento-coluna margem-cima">
                         <h1 class="color-vermelho">Fale Conosco</h1>
                         <h3 class="color-branco">Entenda como podemos te ajudar</h3>
                     </div>
-                    <div class="centralizar metade alinhamento-coluna">
+                    <div class="centralizar metade alinhamento-coluna margem-cima">
                         <h3 class="color-vermelho">Endereço</h3>
                         <p class="color-branco">Rua Santos Dumont, 1515 - Lídice, Uberlândia - MG, 38400-062</p>
+                    </div>
+                    <div class="centralizar metade alinhamento-coluna margem-cima">
                         <h3 class="color-vermelho">Contatos</h3>
-                        <ul class="color-branco alinhamento-coluna">
+                        <ul id="container__contatos" class="color-branco alinhamento-coluna">
                             <li class="alinhamento-linha">
                                 <h3 class="color-branco">WhatsApp</h3>
                                 <p>

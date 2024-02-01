@@ -35,7 +35,7 @@
                 </nav>
             </header>
             <section>
-                <div id="container__above_the_fold" class="background-preto centralizar padding-sessoes">
+                <div id="container__above_the_fold_seo" class="background-preto centralizar padding-sessoes">
                     <div class="centralizar metade alinhamento-coluna">
                         <h1 class="color-vermelho">Otimização para Motores de Busca (SEO)</h1>
                         <p class="color-branco">SEO, ou Search Engine Optimization (Otimização para Motores de Busca), refere-se às práticas e técnicas que tornam um site mais visível nos resultados de pesquisa online. O objetivo é melhorar a posição de um site nos motores de busca como o Google, tornando-o mais acessível para as pessoas que procuram informações relevantes.</p>
@@ -48,7 +48,7 @@
                 </div>
                 <div id="container__importancia" class="background-preto centralizar padding-sessoes">
                     <div class="centralizar metade">
-                        <img id="imagem__container_metodologia" src="../assets/images/fotos/otimizando-site-seo.png" alt="Otimizando o Site para SEO">
+                        <img id="imagem__container_importancia" src="../assets/images/fotos/otimizando-site-seo.png" alt="Otimizando o Site para SEO">
                     </div>
                     <div class="centralizar metade alinhamento-coluna color-branco">
                         <p>A importância do SEO reside no fato de que a maioria das pessoas confia nos motores de busca para encontrar produtos, serviços e informações. Ao otimizar seu site para SEO, aumentam as chances de ser encontrado por potenciais clientes.</p>
