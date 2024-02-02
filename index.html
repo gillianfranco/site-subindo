@@ -15,7 +15,7 @@
             <header class="background-preto">
                 <nav id="lista__links_principais">
                     <div>
-                        <a href=""><img src="assets/images/logos/logo-subindo900x248.png" alt="Logo Subindo Agência"></a>
+                        <a href="" style="display: flex;"><img id="imagem__logo_subindo" src="assets/images/logos/logo-subindo900x248.png" alt="Logo Subindo Agência"></a>
                     </div>
                     <ul>
                         <li><a href="pages/sobre.php"><p class="color-vermelho">Empresa</p></a></li>
@@ -32,6 +32,7 @@
                         </li>
                         <li><a href="pages/contato.php"><p class="color-vermelho">Contato</p></a></li>
                     </ul>
+                    <p id="menu_celular" class="color-vermelho">&#9776;</p>
                 </nav>
             </header>
             <section>
