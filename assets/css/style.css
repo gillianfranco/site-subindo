@@ -119,9 +119,40 @@ main header{
     top: 0;
     z-index: 1;
 }
-p#menu_celular{
-    display: none;
+div#toggle-btn{
+    display: flex;
     font-size: 5vh;
+    margin-bottom: .2em;
+}
+nav.dropdown__menu_celular{
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    padding: 0em 0.2em;
+}
+nav.dropdown__menu_celular .links_principais{
+    display: none;
+    width: 100%;
+    background-color: var(--vermelho);
+    border-radius: .5em;
+    padding: .5em;
+}
+nav.dropdown__menu_celular .links_principais.open{
+    display: flex;
+}
+nav.dropdown__menu_celular ul li:not(:last-child){
+    margin-bottom: .2em;
+}
+nav.lista__links_secundarios_menu_celular{
+    display: none;
+    width: 100%;
+    padding: .5em;
+    background-color: var(--preto);
+}
+nav.lista__links_secundarios_menu_celular.active{
+    display: flex;
 }
 main header nav#lista__links_principais{
     width: 100%;
@@ -384,8 +415,8 @@ footer div:nth-child(1) img{
     nav#lista__links_principais ul{
         display: none;
     }
-    p#menu_celular{
-        display: block;
+    div#toggle-btn{
+        display: flex;
     }
 
     /* ------- Classes ------- */
