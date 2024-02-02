@@ -314,8 +314,17 @@ div#container__atrair h3{
 }
 
 /* ---------------------- Container Contatos ------------------------- */
+div#container__above_the_fold_contato div:nth-child(1){
+    align-items: start;
+}
+div#container__above_the_fold_contato div:nth-child(2){
+    width: 60%;
+}
 ul#container__contatos {
     text-align: start;
+}
+div#contatos{
+    display: none;
 }
 
 /* ------------------------- Imagens ------------------------- */
@@ -592,13 +601,25 @@ footer div:nth-child(1) img{
     }
 
     /* Container contatos */
-    div#container__above_the_fold_contato {
+    div#container__above_the_fold_contato{
         flex-direction: column;
     }
-    ul#container__contatos a {
+    div#container__above_the_fold_contato div:nth-child(2){
+        width: 100%;
+        display: flex;
+    }
+    div#container__above_the_fold_contato table{
+        display: none;
+    }
+    div#contatos{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    ul#container__contatos a{
         font-size: 1.3em;
     }
-    h3.textos-contatos {
+    h3.textos-contatos{
         font-size: 1.3em;
     }
 
