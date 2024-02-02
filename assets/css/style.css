@@ -215,7 +215,7 @@ footer div#links__footer table{
 }
 footer div#links__footer td{
     text-align: left;
-    padding: 0px 4px;
+    padding: 0px 3px;
 }
 footer a{
     color: var(--branco);
