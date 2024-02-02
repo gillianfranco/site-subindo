@@ -272,6 +272,11 @@ div#container__atrair h3{
     margin: 1em 0 .5em 0;
 }
 
+/* ---------------------- Container Contatos ------------------------- */
+ul#container__contatos {
+    text-align: start;
+}
+
 /* ------------------------- Imagens ------------------------- */
 
 /* ---------------------- Imagens index ------------------------- */
