@@ -218,7 +218,9 @@ div#container__above_the_fold_contato li p a{
 }
 
 /* ---------------------- Sessões ------------------------- */
-div[id^="container__"]:not(div#container__cases, div#container__metodologia, div#container__cadastro, div#container__presenca, div#container__importancia, div#container__atrair, div#container__above_the_fold_contato), div.container__pedir_analise, footer > div{
+div[id^="container__"]:not(
+    div#container__cases, div#container__metodologia, div#container__cadastro, div#container__presenca, div#container__importancia, div#container__atrair, div#container__above_the_fold_contato, div#container__funcionarios_omega, div#container__omega
+), div.container__pedir_analise, footer > div{
     flex-direction: row;
 }
 
@@ -415,7 +417,10 @@ footer div:nth-child(1) img{
     }
     
     /* ---------------------- Sessões ------------------------- */
-    div[id^="container__"]:not(div#container__cases, div#container__metodologia,  div#container__cadastro, div#container__presenca, div#container__importancia, div#container__atrair, div#container__above_the_fold_contato), div.container__pedir_analise, footer > div{
+    div[id^="container__"]:not(
+        div#container__cases, div#container__metodologia,  div#container__cadastro, div#container__presenca, div#container__importancia, div#container__atrair, div#container__above_the_fold_contato,
+        div#container__funcionarios_omega, div#container__omega
+    ), div.container__pedir_analise, footer > div{
         flex-direction: column-reverse;
     }
 
@@ -465,6 +470,30 @@ footer div:nth-child(1) img{
     }
     div#container__cases h1 {
         margin-bottom: 0.3em;
+    }
+
+    /* Coontainer case ômega */
+    div#container__omega {
+        margin-top: 1em;
+    }
+    div#container__funcionarios_omega {
+        flex-direction: column;
+    }
+    img#imagem__logo-omegaAdm{
+        padding: 0;
+        width: 35vh;
+    }
+    img#imagem__ranqueamento_omega{
+        width: 45vh;
+        margin-bottom: .3em;
+    }
+    img#imagem__ficha_omega{
+        margin-bottom: 1.5em;
+        width: 35vh;
+    }
+    img#imagem__funcionarios_omega{
+        width: 45vh;
+        margin: 1.5em 0px;
     }
 
     /* Containers google meu negócio */
