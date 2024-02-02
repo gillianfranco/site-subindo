@@ -239,7 +239,7 @@ div#container__servicos nav{
 }
 a.hover_link{
     font-family: 'Agdasima';
-    font-size: 1.2em;
+    font-size: 1.3em;
     text-decoration: underline;
     color: var(--branco);
 }
@@ -457,6 +457,15 @@ footer div:nth-child(1) img{
         width: 45vh;
         margin-bottom: 1.5em;
     }
+
+    /* Serviços */
+    a.hover_link{
+        font-family: 'Agdasima';
+        font-size: 1.2em;
+        text-decoration: underline;
+        color: var(--branco);
+    }
+
 
     /* Containers index */
     div#container__above_the_fold{
