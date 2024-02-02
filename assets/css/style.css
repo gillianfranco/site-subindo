@@ -119,6 +119,10 @@ main header{
     top: 0;
     z-index: 1;
 }
+p#menu_celular{
+    display: none;
+    font-size: 5vh;
+}
 main header nav#lista__links_principais{
     width: 100%;
     display: flex;
@@ -368,9 +372,17 @@ footer div:nth-child(1) img{
 /* ----------------------------------------------- Responsividade ------------------------------------------- */
 
 @media only screen and (orientation: portrait) {
-    header {
+    /* ------- Menu ------- */
+    img#imagem__logo_subindo{
+        width: 21vh;
+    }
+    nav#lista__links_principais ul{
         display: none;
     }
+    p#menu_celular{
+        display: block;
+    }
+
     /* ------- Classes ------- */
     .metade{
         width: 100%;
@@ -533,7 +545,7 @@ footer div:nth-child(1) img{
     }
     img#imagem__container_cases {
         width: 50vh;
-        padding-bottom: 1em;
+        margin: 1em 0em;
     }
     img.imagens-rodape {
         width: 8vh;
