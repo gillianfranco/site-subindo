@@ -120,7 +120,7 @@ main header{
     z-index: 1;
 }
 div#toggle-btn{
-    display: flex;
+    display: none;
     font-size: 5vh;
     margin-bottom: .2em;
 }
