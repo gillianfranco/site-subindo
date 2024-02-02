@@ -464,23 +464,15 @@ footer div:nth-child(1) img{
         flex-direction: column-reverse;
     }
 
+    div#container__metodologia, div#container__funcionarios_omega, div#container__cadastro, div#container__presenca, div#container__importancia, div#container__atrair, div#container__above_the_fold_contato{
+        flex-direction: column;
+    }
+
     /* Above the fold */
     main #imagem__titulo_above_the_fold {
         width: 90vw;
     }
-    img#imagem__above_the_fold_meu_negocio{
-        width: 50vh;
-        margin: 0;
-    }
-    img#imagem__above_the_fold_presenca_digital{
-        width: 50vh;
-        margin: 0;
-    }
-    img#imagem__above_the_fold_seo{
-        width: 50vh;
-        margin: 0;
-    }
-    img#imagem__above_the_fold_trafego_pago{
+    img#imagem__above_the_fold_meu_negocio, img#imagem__above_the_fold_presenca_digital, img#imagem__above_the_fold_seo, img#imagem__above_the_fold_trafego_pago{
         width: 50vh;
         margin: 0;
     }
@@ -488,9 +480,6 @@ footer div:nth-child(1) img{
     /* Empresa */
     div#container__above_the_fold_sobre {
         height: 95vh;
-    }
-    div#container__metodologia {
-        flex-direction: column;
     }
     img#imagem__container_metodologia {
         width: 45vh;
@@ -528,9 +517,6 @@ footer div:nth-child(1) img{
     div#container__omega {
         margin-top: 1em;
     }
-    div#container__funcionarios_omega {
-        flex-direction: column;
-    }
     img#imagem__logo-omegaAdm{
         padding: 0;
         width: 35vh;
@@ -552,9 +538,6 @@ footer div:nth-child(1) img{
     div#container__above_the_fold_meu_negocio {
         height: 85vh;
     }
-    div#container__cadastro {
-        flex-direction: column;
-    }
     img#imagem__container_cadastro {
         width: 45vh;
         margin-bottom: 2em;
@@ -567,9 +550,6 @@ footer div:nth-child(1) img{
     /* Containers presença digital */
     div#container__above_the_fold_presenca {
         height: 97vh;
-    }
-    div#container__presenca {
-        flex-direction: column;
     }
     img#imagem__container_presenca {
         width: 45vh;
@@ -584,9 +564,6 @@ footer div:nth-child(1) img{
     div#container__above_the_fold_seo{
         height: 115vh;
     }
-    div#container__importancia {
-        flex-direction: column;
-    }
     img#imagem__container_importancia {
         width: 45vh;
         margin-bottom: 2em;
@@ -600,9 +577,6 @@ footer div:nth-child(1) img{
     div#container__above_the_fold_trafego {
         height: 100vh;
     }
-    div#container__atrair {
-        flex-direction: column;
-    }
     img#imagem__container_atrair {
         width: 45vh;
         margin-bottom: 2em;
@@ -613,9 +587,6 @@ footer div:nth-child(1) img{
     }
 
     /* Container contatos */
-    div#container__above_the_fold_contato{
-        flex-direction: column;
-    }
     div#container__above_the_fold_contato div:nth-child(2){
         width: 100%;
         display: flex;
