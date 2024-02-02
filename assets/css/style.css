@@ -180,6 +180,7 @@ footer div#links__footer table{
 }
 footer div#links__footer td{
     text-align: left;
+    padding: 0px 4px;
 }
 footer a{
     color: var(--branco);
@@ -196,6 +197,9 @@ footer div:nth-child(2) table td{
     width: 3em;
     height: 3em;
     text-align: center;
+}
+footer h3 {
+    font-size: 1.4em;
 }
 
 /* ---------------------------------------------------- Home --------------------------------------------- */
@@ -511,7 +515,10 @@ footer div:nth-child(1) img{
         flex-direction: column;
     }
     ul#container__contatos a {
-        font-size: 1.1em;
+        font-size: 1.3em;
+    }
+    h3.textos-contatos {
+        font-size: 1.3em;
     }
 
     /* ---------------------- Container Pedir Análise ------------------------- */
@@ -549,5 +556,11 @@ footer div:nth-child(1) img{
     
     footer div:nth-child(2) {
         margin-top: 1.5em;
+    }
+
+    /* Rodapé */
+    footer .links-rodape {
+        text-align: left;
+        font-size: 1em;
     }
 }
