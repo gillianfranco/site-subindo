@@ -51,6 +51,7 @@ a{
     align-items: center;
     width: 100%;
     height: 100%;
+    text-align: center;
 }
 .block_centralizado{
     display: flex;
@@ -100,6 +101,12 @@ a.btn{
     color: var(--vermelho);
     padding: .6em;
     border: 4px solid var(--vermelho);
+    transition: .5s;
+}
+
+a.btn:hover{
+    color: var(--preto);
+    background-color: var(--vermelho);
 }
 
 .margem-cima {
@@ -244,6 +251,10 @@ div.container__pedir_analise{
     padding: 3em;
 }
 
+div.container__pedir_analise a.btn:hover{
+    color: var(--branco);
+}
+
 /* ---------------------- Container Pedir Análise ------------------------- */
 div#container__metodologia h3{
     margin: 1em 0 .5em 0;
@@ -286,7 +297,24 @@ img#imagem__container_estrategia{
     width: 78vh;
 }
 
-/* ---------------------- Imagens preseça digital ------------------------- */
+/* ---------------------- Imagens case omega ------------------------- */
+img#imagem__logo-omegaAdm{
+    margin-top: 1em;
+    width: 35vh;
+}
+img#imagem__ranqueamento_omega{
+    margin-top: .5em;
+    width: 79vh;
+}
+img#imagem__ficha_omega{
+    margin-top: 1em;
+    width: 35vh;
+}
+img#imagem__funcionarios_omega{
+    width: 80vh;
+}
+
+/* ---------------------- Imagens presença digital ------------------------- */
 img#imagem__above_the_fold_presenca_digital{
     width: 88vh;
     margin-left: 5em;

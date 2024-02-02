@@ -43,9 +43,36 @@
                     </ul>
                 </nav>
             </header>
-            <section class="container__pedir_analise background-branco centralizar">
-                
-
+            <section class="background-preto">
+                <div id="container__above_the_fold_case_omega" class="centralizar alinhamento-linha padding-sessoes">
+                    <div class="metade centralizar alinhamento-coluna">
+                        <h3 class="color-branco">Ômega Administradora de Condomínios</h3>
+                        <img id="imagem__logo-omegaAdm" src="../../assets/images/logos/logo-omega-adm.png" alt="Logo Ômega ADM">
+                    </div>
+                    <div class="centralizar alinhamento-coluna">
+                        <h1 class="color-vermelho">A Ômega Atrai Clientes através de Prova Social</h1>
+                        <p class="color-branco">Através da aplicação de um método eficiente para a coleta de avaliações, utilizando o Google Meu Negócio como um aliado estratégico para estabelecer confiança, a Ômega Administradora de Condomínios contou com o Google como seu principal parceiro para atrair novos clientes.</p>
+                    </div>
+                </div>
+                <div id="container__ranqueamento_omega" class="centralizar padding-sessoes">
+                    <div class="centralizar alinhamento-coluna metade">
+                        <h1 class="color-vermelho">Ranqueamento em Diferentes Locais em Uberlândia</h1>
+                        <img id="imagem__ranqueamento_omega" src="../../assets/images/fotos/omega-administradora-de-condominios-administradora-de-condominios-5x5-5km-2024-01-29.png" alt="Ranqueamento do Google Meu Negócio">
+                    </div>
+                    <div class="centralizar alinhamento-coluna metade">
+                        <h2 class="color-branco">Atendimento 5 estrelas</h2>
+                        <p class="color-branco">Proporcionamos visibilidade ao serviço que se destaca na empresa, o atendimento, e, com isso, conseguimos atrair clientes que valorizam um serviço de qualidade. O enfoque na excelência do atendimento destacou a Ômega entre os concorrentes, e as avaliações positivas começaram a se acumular.</p>
+                        <img id="imagem__ficha_omega" src="../../assets/images/fotos/ficha-google-omega-depois.png" alt="Ficha do Google Ômega">
+                    </div>
+                </div>
+                <div id="container__funcionarios_omega" class="centralizar padding-sessoes">
+                    <div class="metade centralizar alinhamento-coluna">
+                        <p class="color-branco">Essas avaliações fortaleceram a reputação da empresa e se transformaram em uma robusta ferramenta de prova social. A Ômega Administradora de Condomínios não apenas consolidou sua presença no mercado, mas também ampliou sua base de clientes.</p>
+                    </div>
+                    <div class="metade centralizar alinhamento-coluna">
+                        <img id="imagem__funcionarios_omega" src="../../assets/images/fotos/foto-funcionarios-omega.png" alt="Foto Funcionários da Ômega">
+                    </div>
+                </div>
                 <div class="container__pedir_analise background-branco centralizar">
                     <h2>Quero dar visibilidade ao meu negócio!</h2>
                     <a href="" class="btn">Fale Conosco</a>
