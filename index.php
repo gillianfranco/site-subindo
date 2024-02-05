@@ -113,7 +113,7 @@
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
                     <h2>Quero dar visibilidade ao meu negócio!</h2>
-                    <a href="pages/contato.php" class="btn">Fale Conosco</a>
+                    <a href="pages/contato.php" class="btn">Pedir Análise Gratuita</a>
                 </div>
             </section>
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">
