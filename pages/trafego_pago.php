@@ -84,7 +84,7 @@
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
                     <h2>Quero melhorar meus resultados!</h2>
-                    <a href="" class="btn">Fale Conosco</a>
+                    <a href="" class="btn">Pedir Análise Gratuita</a>
                 </div>
             </section>
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">
