@@ -92,7 +92,7 @@
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">
                 <div class="centralizar">
                     <div class="centralizar metade">
-                        <img id="imagem__logo_rodape" src="../assets/images/logos/logo-titulo900x300.png" alt="Logo Subindo">
+                        <img id="imagem__logo_rodape" src="../../assets/images/logos/logo-titulo900x300.png" alt="Logo Subindo">
                     </div>
                     <div id="links__footer" class="centralizar metade">
                         <table>
