@@ -7,7 +7,7 @@
     font-size: 3.5vh;
     padding: 0;
 }
-body{
+body, main, section{
     width: 100%;
 }
 
@@ -236,14 +236,23 @@ footer div:nth-child(2) table td{
 footer h3 {
     font-size: 1.4em;
 }
+footer div:nth-child(1) img{
+    width: 100%;
+    padding: .5em;
+}
 
 /* ---------------------------------------------------- Home --------------------------------------------- */
 
 /* ---------------------- Above The Fold ------------------------- */
-div#container__above_the_fold{
+div#container__above_the_fold, div#container__above_the_fold_seo, div#container__above_the_fold_sobre{
     height: 76vh;
 }
-
+div#titulo__above_the_fold1{
+    display: flex;
+}
+div#titulo__above_the_fold2{
+    display: none;
+}
 div#container__above_the_fold_contato li p a{
     text-decoration: underline;
 }
@@ -254,16 +263,16 @@ div[id^="container__"]:not(
 ), div.container__pedir_analise, footer > div{
     flex-direction: row;
 }
+div#container__sobre_nos > div, div#container__servicos > div{
+    flex-direction: column;
+}
 
 /* ---------------------- Container Sobre nós ------------------------- */
-div#container__sobre_nos > div{
-    flex-direction: column;
+div#container__metodologia h3{
+    margin: 1em 0 .5em 0;
 }
 
 /* ---------------------- Container Serviços ------------------------- */
-div#container__servicos > div{
-    flex-direction: column;
-}
 div#container__servicos nav{
     width: 100%;
     margin-top: 1em;
@@ -296,23 +305,6 @@ div.container__pedir_analise a.btn:hover{
     color: var(--branco);
 }
 
-/* ---------------------- Container Pedir Análise ------------------------- */
-div#container__metodologia h3{
-    margin: 1em 0 .5em 0;
-}
-div#container__cadastro h3{
-    margin: 1em 0 .5em 0;
-}
-div#container__presenca h3{
-    margin: 1em 0 .5em 0;
-}
-div#container__importancia h3{
-    margin: 1em 0 .5em 0;
-}
-div#container__atrair h3{
-    margin: 1em 0 .5em 0;
-}
-
 /* ---------------------- Container Contatos ------------------------- */
 div#container__above_the_fold_contato div:nth-child(1){
     align-items: start;
@@ -328,97 +320,32 @@ div#contatos{
 }
 
 /* ------------------------- Imagens ------------------------- */
-
-/* ---------------------- Imagens index ------------------------- */
-img#imagem__above_the_fold, img#imagem__titulo_above_the_fold{
-    width: 88vh;
+/* img#imagem__above_the_fold, img#imagem__titulo_above_the_fold, img#imagem__above_the_fold_meu_negocio, img#imagem__above_the_fold_presenca_digital, img#imagem__above_the_fold_seo, img#imagem__above_the_fold_trafego_pago, img#imagem__sobre_nos, img#imagem__container_objetivo, img#imagem__container_estrategia, img#imagem__container_administracao, img#imagem__container_melhorar, img#imagem__container_atrair, img#imagem__container_campanhas, img#imagem__servicos, img#imagem__container_metodologia, img#imagem__container_cadastro, img#imagem__container_presenca, img#imagem__container_importancia, img#imagem__funcionarios_omega, img#imagem__ranqueamento_omega  */
+img[id^="imagem__"]:not(#imagem__container_cases, #imagem__logo-omegaAdm, #imagem__ficha_omega, #imagem__logo_subindo, #imagem__above_the_fold, #imagem__above_the_fold_meu_negocio, #imagem__above_the_fold_presenca_digital, #imagem__above_the_fold_seo, #imagem__above_the_fold_trafego_pago){
+    width: 100%;
+    padding: .5em;
 }
-img#imagem__container_metodologia{
-    width: 65vh;
-}
-img#imagem__container_objetivo{
-    width: 78vh;
-}
-
-/* ---------------------- Imagens google meu negócio ------------------------- */
-img#imagem__above_the_fold_meu_negocio{
-    width: 98vh;
-    margin-left: 4em;
-}
-img#imagem__container_cadastro{
-    width: 65vh;
-}
-img#imagem__container_estrategia{
-    width: 78vh;
-}
-
-/* ---------------------- Imagens case omega ------------------------- */
-img#imagem__logo-omegaAdm{
-    margin-top: 1em;
-    width: 35vh;
-}
-img#imagem__ranqueamento_omega{
-    margin-top: .5em;
-    width: 79vh;
-}
-img#imagem__ficha_omega{
-    margin-top: 1em;
-    width: 35vh;
-}
-img#imagem__funcionarios_omega{
-    width: 80vh;
-}
-
-/* ---------------------- Imagens presença digital ------------------------- */
-img#imagem__above_the_fold_presenca_digital{
-    width: 88vh;
-    margin-left: 5em;
-}
-img#imagem__container_presenca{
-    width: 65vh;
-}
-img#imagem__container_administracao{
-    width: 78vh;
-}
-
-/* ---------------------- Imagens seo ------------------------- */
-img#imagem__above_the_fold_seo{
-    width: 88vh;
-    margin-left: 4em;
-}
-img#imagem__container_importancia{
-    width: 65vh;
-}
-img#imagem__container_melhorar{
-    width: 78vh;
-}
-
-/* ---------------------- Imagens tráfego pago ------------------------- */
-img#imagem__above_the_fold_trafego_pago{
-    width: 88vh;
-    margin-left: 5em;
-}
-img#imagem__container_atrair{
-    width: 65vh;
-}
-img#imagem__container_campanhas{
-    width: 78vh;
-}
-
-img#imagem__sobre_nos{
-    width: 75vh;
-}
-img#imagem__servicos{
-    width: 65vh;
+img#imagem__above_the_fold, img#imagem__above_the_fold_meu_negocio, img#imagem__above_the_fold_presenca_digital, img#imagem__above_the_fold_seo, img#imagem__above_the_fold_trafego_pago{
+    width: 100%;
 }
 img#imagem__container_cases{
-    width: 70vh;
+    width: 100%;
+}
+img#imagem__logo-omegaAdm{
+    margin-top: .5em;
+    width: 35vh;
+}
+img#imagem__ficha_omega{
+    width: 35vh;
+    padding: 1em;
 }
 
-footer div:nth-child(1) img{
-    width: 12em;
+div#titulo__above_the_fold1{
+    display: none;
 }
-
+div#titulo__above_the_fold2{
+    display: flex;
+}
 
 /* ----------------------------------------------- Responsividade ------------------------------------------- */
 
@@ -439,7 +366,10 @@ footer div:nth-child(1) img{
         width: 100%;
     }
     .padding-sessoes{
-        padding: 1em 1.5em;
+        padding: .5em 1em;
+    }
+    .alinhamento-linha{
+        flex-direction: column;
     }
 
     /* Caracteres */
@@ -468,122 +398,17 @@ footer div:nth-child(1) img{
         flex-direction: column;
     }
 
-    /* Above the fold */
-    main #imagem__titulo_above_the_fold {
-        width: 90vw;
-    }
-    img#imagem__above_the_fold_meu_negocio, img#imagem__above_the_fold_presenca_digital, img#imagem__above_the_fold_seo, img#imagem__above_the_fold_trafego_pago{
-        width: 50vh;
-        margin: 0;
-    }
-
-    /* Empresa */
-    div#container__above_the_fold_sobre {
-        height: 95vh;
-    }
-    img#imagem__container_metodologia {
-        width: 45vh;
-        margin-bottom: 2em;
-    }
-    img#imagem__container_objetivo {
-        width: 45vh;
-        margin-bottom: 1.5em;
-    }
-
-    /* Serviços */
-    a.hover_link{
-        font-family: 'Agdasima';
-        font-size: 1.2em;
-        text-decoration: underline;
-        color: var(--branco);
-    }
-
-
-    /* Containers index */
     div#container__above_the_fold{
-        height: 75vh;
+        height: 74vh;
     }
-    div#container__sobre_nos {
-        justify-content: center;
+    div#container__above_the_fold_sobre, div#container__above_the_fold_meu_negocio{
+        height: 80vh;
     }
-    div#container__cases .alinhamento-linha {
-        flex-direction: column;
+    div#container__above_the_fold_presenca, div#container__above_the_fold_seo{
+        height: 98vh;
     }
-    div#container__cases h1 {
-        margin-bottom: 0.3em;
-    }
-
-    /* Coontainer case ômega */
-    div#container__omega {
-        margin-top: 1em;
-    }
-    img#imagem__logo-omegaAdm{
-        padding: 0;
-        width: 35vh;
-    }
-    img#imagem__ranqueamento_omega{
-        width: 45vh;
-        margin-bottom: .3em;
-    }
-    img#imagem__ficha_omega{
-        margin-bottom: 1.5em;
-        width: 35vh;
-    }
-    img#imagem__funcionarios_omega{
-        width: 45vh;
-        margin: 1.5em 0px;
-    }
-
-    /* Containers google meu negócio */
-    div#container__above_the_fold_meu_negocio {
-        height: 85vh;
-    }
-    img#imagem__container_cadastro {
-        width: 45vh;
-        margin-bottom: 2em;
-    }
-    img#imagem__container_estrategia {
-        width: 45vh;
-        margin-bottom: 1.5em;
-    }
-
-    /* Containers presença digital */
-    div#container__above_the_fold_presenca {
-        height: 97vh;
-    }
-    img#imagem__container_presenca {
-        width: 45vh;
-        margin-bottom: 2em;
-    }
-    img#imagem__container_administracao {
-        width: 45vh;
-        margin-bottom: 1.5em;
-    }
-
-    /* Containers seo */
-    div#container__above_the_fold_seo{
-        height: 115vh;
-    }
-    img#imagem__container_importancia {
-        width: 45vh;
-        margin-bottom: 2em;
-    }
-    img#imagem__container_melhorar {
-        width: 45vh;
-        margin-bottom: 1.5em;
-    }
-
-    /* Containers tráfego pago */
-    div#container__above_the_fold_trafego {
-        height: 100vh;
-    }
-    img#imagem__container_atrair {
-        width: 45vh;
-        margin-bottom: 2em;
-    }
-    img#imagem__container_campanhas {
-        width: 45vh;
-        margin-bottom: 1.5em;
+    div#vcontainer__above_the_fold_case_omega{
+        height: 114vh;
     }
 
     /* Container contatos */
@@ -611,41 +436,35 @@ footer div:nth-child(1) img{
         text-align: center;
         flex-direction: column;
     }
-    div.container__pedir_analise a {
-        margin-top: 20px;
+    div.container__pedir_analise a{
+        margin-top: .5em;
     }
 
     /* --------------- Imagens --------------- */
-    img#imagem__sobre_nos {
-        width: 50vh;
-    }
     img#imagem__servicos {
         display: none;
     }
-    main #imagem__titulo_above_the_fold {
-        width: 90vw;
-    }
-    img#imagem__above_the_fold {
-        width: 50vh;
-        margin-bottom: 1.5em;
-    }
     img#imagem__container_cases {
-        width: 50vh;
-        margin: 1em 0em;
+        margin-top: .5em;
     }
     img.imagens-rodape {
         width: 8vh;
     }
-    img#imagem__logo_rodape {
+    img#imagem__logo_rodape{
         margin-top: 1.5em;
     }
+
+    img#imagem__logo-omegaAdm{
+        width: 35vh;
+    }
     
-    footer div:nth-child(2) {
+    footer div:nth-child(2){
         margin-top: 1.5em;
     }
 
     /* Rodapé */
-    footer .links-rodape {
+    footer .links-rodape{
+        width: 100%;
         text-align: left;
         font-size: 1em;
     }
