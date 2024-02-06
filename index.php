@@ -161,17 +161,17 @@
                         <tr>
                             <td>
                                 <a href="https://wa.me/5534992881-8153" target="_blank" class="icones-redes">
-                                    <img class="imagens-rodape" src="/assets/images/icones/icons8-whatsapp-48.png" alt="Icone WhatsApp">
+                                    <img class="imagens-rodape" src="assets/images/icones/icons8-whatsapp-48.png" alt="Icone WhatsApp">
                                 </a>
                             </td>
                             <td>
                                 <a href="https://www.instagram.com/subindoagencia/" target="_blank" class="icones-redes">
-                                    <img class="imagens-rodape" src="/assets/images/icones/icons8-instagram-48.png" alt="Icone Instagram">
+                                    <img class="imagens-rodape" src="assets/images/icones/icons8-instagram-48.png" alt="Icone Instagram">
                                 </a>
                             </td>
                             <td>
                                 <a href="mailto:support@subindo.agencia@gmail.com" target="_blank" class="icones-redes">
-                                    <img class="imagens-rodape" src="/assets/images/icones/icons8-email-48.png" alt="Icone Email">
+                                    <img class="imagens-rodape" src="assets/images/icones/icons8-email-48.png" alt="Icone Email">
                                 </a>
                             </td>
                         </tr>

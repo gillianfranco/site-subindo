@@ -40,7 +40,7 @@
             <section>
                 <nav class="dropdown__menu_celular">
                     <ul class="links_principais centralizar alinhamento-coluna">
-                        <li><a href="pages/sobre.php"><p class="color-branco">Empresa</p></a></li>
+                        <li><a href="sobre.php"><p class="color-branco">Empresa</p></a></li>
                         <li id="click__links_secundarios_menu_celular" class="centralizar alinhamento-coluna">
                             <p class="color-branco">Serviços</p>
                             <nav class="lista__links_secundarios_menu_celular">
@@ -99,13 +99,13 @@
                                     <li class="alinhamento-linha">
                                         <h3 class="color-branco">WhatsApp</h3>
                                         <p>
-                                            <a href="https://wa.me/5534992881-8153" class="color-branco hover_link">(34) 99281-8153</a>
+                                            <a href="https://wa.me/5534992881-8153" target="_blank" class="color-branco hover_link">(34) 99281-8153</a>
                                         </p>
                                     </li>
                                     <li>
                                         <h3 class="color-branco">Email</h3>
                                         <p class="color-branco">
-                                            <a href="mailto:support@subindo.agencia@gmail.com" class="color-branco hover_link">subindo.agencia@gmail.com</a>
+                                            <a href="mailto:support@subindo.agencia@gmail.com" target="_blank" class="color-branco hover_link">subindo.agencia@gmail.com</a>
                                         </p>
                                     </li>
                                 </ul>
