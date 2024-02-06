@@ -144,6 +144,10 @@ nav.dropdown__menu_celular .links_principais{
     border-radius: .5em;
     padding: .5em;
 }
+.links_principais li, .links_principais li a, .links_principais li p{
+    width: 100%;
+    text-align: center;
+}
 nav.dropdown__menu_celular .links_principais.open{
     display: flex;
 }
