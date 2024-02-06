@@ -61,9 +61,7 @@
                         <p class="color-branco">O Google Meu Negócio é uma ferramenta gratuita do Google que permite que empresas locais gerenciem como sua informação aparece nos resultados de pesquisa e no Google Maps.</p>
                     </div>
                     <div class="centralizar metade">
-                        <abbr title="https://pt.vecteezy.com/vetor-gratis/marketing">
-                            <img id="imagem__above_the_fold_meu_negocio" src="../assets/images/fotos/imagem-above-the-fold-meu-negocio.png" alt="Meu Negócio">
-                        </abbr>
+                        <img id="imagem__above_the_fold_meu_negocio" src="../assets/images/fotos/imagem-above-the-fold-meu-negocio.png" alt="Meu Negócio">
                     </div>
                 </div>
                 <div id="container__cadastro" class="background-preto centralizar padding-sessoes">
@@ -84,7 +82,7 @@
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
                     <h2>Quero dar visibilidade ao meu negócio!</h2>
-                    <a href="" class="btn">Pedir Análise Gratuita</a>
+                    <a href="contato.php" class="btn">Pedir Análise Gratuita</a>
                 </div>
             </section>
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">

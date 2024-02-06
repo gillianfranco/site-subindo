@@ -59,9 +59,7 @@
                 </nav>
                 <div id="container__above_the_fold" class="background-preto centralizar">
                     <div class="centralizar metade">
-                        <abbr title="https://pt.vecteezy.com/vetor-gratis/marketing">
-                            <img id="imagem__above_the_fold" src="assets/images/imagem-above-the-fold/imagem-above-the-fold.png" alt="">
-                        </abbr>
+                        <img id="imagem__above_the_fold" src="assets/images/imagem-above-the-fold/imagem-above-the-fold.png" alt="">
                     </div>
                     <div class="centralizar metade" id="titulo__above_the_fold1">
                         <img id="imagem__titulo_above_the_fold" src="assets/images/logos/logo-titulo900x360.png" alt="Logo Subindo Agência">
@@ -82,9 +80,7 @@
                 </div>
                 <div id="container__servicos" class="padding-sessoes background-preto centralizar">
                     <div class="centralizar metade">
-                        <abbr title="https://pt.vecteezy.com/fotos-gratis/gest%C3%A3o">
-                            <img id="imagem__servicos"  src="assets/images/fotos/vecteezy_mao-de-empresario-pressionando-um-botao-imaginario_5301751.png" alt="Foto Gestão">
-                        </abbr>
+                        <img id="imagem__servicos"  src="assets/images/fotos/vecteezy_mao-de-empresario-pressionando-um-botao-imaginario_5301751.png" alt="Foto Gestão">
                     </div>
                     <div class="centralizar color-branco metade">
                         <h1 class="color-vermelho">O que fazemos?</h1>

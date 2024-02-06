@@ -61,9 +61,7 @@
                         <p class="color-branco">Presença digital refere-se à representação online de uma empresa ou marca em diversos canais da internet, como site, redes sociais e outros. Ter uma forte presença digital significa estar ativo e visível online, proporcionando aos clientes e potenciais clientes acesso fácil a informações relevantes sobre a empresa.</p>
                     </div>
                     <div class="centralizar metade">
-                        <abbr title="https://pt.vecteezy.com/vetor-gratis/marketing">
-                            <img id="imagem__above_the_fold_presenca_digital" src="../assets/images/fotos/imagem-above-the-fold-presenca-digital.png" alt="Presença Digital">
-                        </abbr>
+                        <img id="imagem__above_the_fold_presenca_digital" src="../assets/images/fotos/imagem-above-the-fold-presenca-digital.png" alt="Presença Digital">
                     </div>
                 </div>
                 <div id="container__presenca" class="background-preto centralizar padding-sessoes">
@@ -84,7 +82,7 @@
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
                     <h2>Quero dar visibilidade ao meu negócio!</h2>
-                    <a href="" class="btn">Pedir Análise Gratuita</a>
+                    <a href="contato.php" class="btn">Pedir Análise Gratuita</a>
                 </div>
             </section>
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">

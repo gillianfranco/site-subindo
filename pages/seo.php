@@ -61,9 +61,7 @@
                         <p class="color-branco">SEO, ou Search Engine Optimization (Otimização para Motores de Busca), refere-se às práticas e técnicas que tornam um site mais visível nos resultados de pesquisa online. O objetivo é melhorar a posição de um site nos motores de busca como o Google, tornando-o mais acessível para as pessoas que procuram informações relevantes.</p>
                     </div>
                     <div class="centralizar metade">
-                        <abbr title="https://pt.vecteezy.com/vetor-gratis/marketing">
-                            <img id="imagem__above_the_fold_seo" src="../assets/images/fotos/imagem-above-the-fold-seo.png" alt="Tréfego Pago">
-                        </abbr>
+                        <img id="imagem__above_the_fold_seo" src="../assets/images/fotos/imagem-above-the-fold-seo.png" alt="Tréfego Pago">
                     </div>
                 </div>
                 <div id="container__importancia" class="background-preto centralizar padding-sessoes">
@@ -84,7 +82,7 @@
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
                     <h2>Quero dar visibilidade ao meu negócio!</h2>
-                    <a href="" class="btn">Pedir Análise Gratuita</a>
+                    <a href="contato.php" class="btn">Pedir Análise Gratuita</a>
                 </div>
             </section>
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">

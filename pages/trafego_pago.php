@@ -61,9 +61,7 @@
                         <p class="color-branco">Tráfego pago se refere à estratégia de direcionar visitantes para um site por meio de anúncios pagos. Esses anúncios podem aparecer em diferentes plataformas online, como motores de busca, redes sociais e outros sites, e a empresa paga com base na quantidade de cliques ou impressões que o anúncio recebe.</p>
                     </div>
                     <div class="centralizar metade">
-                        <abbr title="https://pt.vecteezy.com/vetor-gratis/marketing">
-                            <img id="imagem__above_the_fold_trafego_pago" src="../assets/images/fotos/imagem-above-the-fold-trafego-pago.png" alt="Tréfego Pago">
-                        </abbr>
+                        <img id="imagem__above_the_fold_trafego_pago" src="../assets/images/fotos/imagem-above-the-fold-trafego-pago.png" alt="Tréfego Pago">
                     </div>
                 </div>
                 <div id="container__atrair" class="background-preto centralizar padding-sessoes">
@@ -84,7 +82,7 @@
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
                     <h2>Quero dar visibilidade ao meu negócio!</h2>
-                    <a href="" class="btn">Pedir Análise Gratuita</a>
+                    <a href="contato.php" class="btn">Pedir Análise Gratuita</a>
                 </div>
             </section>
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">

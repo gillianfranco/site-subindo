@@ -61,9 +61,7 @@
                         <p class="color-branco">A agência de marketing digital Subindo tem como objetivo impulsionar o sucesso de empresas que oferecem serviços e produtos de excelência, mas que carecem de presença digital.</p>
                     </div>
                     <div class="centralizar metade">
-                        <abbr title="https://pt.vecteezy.com/vetor-gratis/marketing">
-                            <img id="imagem__above_the_fold" src="../assets/images/imagem-above-the-fold/imagem-above-the-fold.png" alt="">
-                        </abbr>
+                        <img id="imagem__above_the_fold" src="../assets/images/imagem-above-the-fold/imagem-above-the-fold.png" alt="">
                     </div>
                 </div>
                 <div id="container__metodologia" class="background-preto centralizar padding-sessoes">
@@ -88,7 +86,7 @@
                 </div>
                 <div class="container__pedir_analise background-branco centralizar">
                     <h2>Quero dar visibilidade ao meu negócio!</h2>
-                    <a href="" class="btn">Pedir Análise Gratuita</a>
+                    <a href="contato.php" class="btn">Pedir Análise Gratuita</a>
                 </div>
             </section>
             <footer class="padding-sessoes background-preto centralizar alinhamento-coluna">
