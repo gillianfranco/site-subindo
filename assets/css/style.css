@@ -320,14 +320,11 @@ div#contatos{
 }
 
 /* ------------------------- Imagens ------------------------- */
-img[id^="imagem__"]:not(#imagem__container_cases, #imagem__logo-omegaAdm, #imagem__ficha_omega, #imagem__logo_subindo, #imagem__above_the_fold, #imagem__above_the_fold_meu_negocio, #imagem__above_the_fold_seo){
+img[id^="imagem__"]:not(#imagem__container_cases, #imagem__logo-omegaAdm, #imagem__ficha_omega, #imagem__logo_subindo, #imagem__above_the_fold, #imagem__above_the_fold_meu_negocio){
     width: 100%;
     padding: .5em;
 }
-img#imagem__above_the_fold, img#imagem__above_the_fold_meu_negocio, img#imagem__above_the_fold_seo{
-    width: 100%;
-}
-img#imagem__container_cases{
+img#imagem__above_the_fold, img#imagem__above_the_fold_meu_negocio, img#imagem__container_cases{
     width: 100%;
 }
 img#imagem__logo-omegaAdm{
