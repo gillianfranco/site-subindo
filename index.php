@@ -8,6 +8,8 @@
 
         <link rel="shortcut icon" href="assets/images/favicon/favicon.png">
 
+        <meta name="description" content="Aumente a visibilidade dos seus serviços e produtos com Marketing Digital.">
+
         <title>Subindo | Agência de Marketing Digital</title>
     </head>
     <body>
