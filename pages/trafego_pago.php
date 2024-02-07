@@ -150,6 +150,7 @@
                 </div>
             </footer>
         </main>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBSTNF860T"></script>
         <script src="../assets/js/script.js"></script>
     </body>
 </html>
