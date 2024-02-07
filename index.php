@@ -180,5 +180,6 @@
             </footer>
         </main>
         <script src="assets/js/script.js"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XBSTNF860T"></script>
     </body>
 </html>

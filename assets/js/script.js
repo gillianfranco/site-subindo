@@ -16,3 +16,12 @@ const dropDownLinks = document.querySelector(".lista__links_secundarios_menu_cel
 toggleService.onclick = function(){
   dropDownLinks.classList.toggle('active');
 }
+
+
+// Google tag (gtag.js)
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-XBSTNF860T');
