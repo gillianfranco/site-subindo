@@ -131,7 +131,7 @@
                     <table>
                         <tr>
                             <td>
-                                <a href="https://wa.me/55349864-1920" target="_blank" class="icones-redes">
+                                <a href="https://wa.me/553498641920" target="_blank" class="icones-redes">
                                     <img class="imagens-rodape" src="../assets/images/icones/icons8-whatsapp-48.png" alt="Icone WhatsApp">
                                 </a>
                             </td>
