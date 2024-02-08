@@ -99,7 +99,7 @@
                                     <li class="alinhamento-linha">
                                         <h3 class="color-branco">WhatsApp</h3>
                                         <p>
-                                            <a href="https://wa.me/5534992881-8153" target="_blank" class="color-branco hover_link">(34) 99281-8153</a>
+                                            <a href="https://wa.me/55349864-1920" target="_blank" class="color-branco hover_link">(34) 9864-1920</a>
                                         </p>
                                     </li>
                                     <li>
@@ -160,7 +160,7 @@
                     <table>
                         <tr>
                             <td>
-                                <a href="https://wa.me/5534992881-8153" target="_blank" class="icones-redes">
+                                <a href="https://wa.me/55349864-1920" target="_blank" class="icones-redes">
                                     <img class="imagens-rodape" src="../assets/images/icones/icons8-whatsapp-48.png" alt="Icone WhatsApp">
                                 </a>
                             </td>
