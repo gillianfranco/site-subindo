@@ -345,6 +345,13 @@ img#imagem__ficha_omega{
     padding: 1em;
 }
 
+/* ------------------------- Vídeo ------------------------- */
+video#video__index{
+    width: 100%;
+    padding: 1em;
+    border-radius: 2em;
+}
+
 /* ----------------------------------------------- Responsividade ------------------------------------------- */
 
 @media only screen and (orientation: portrait){
@@ -475,5 +482,9 @@ img#imagem__ficha_omega{
         width: 100%;
         text-align: left;
         font-size: 1em;
+    }
+
+    video#video__index{
+        padding: .5em;
     }
 }

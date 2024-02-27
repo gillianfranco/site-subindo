@@ -75,7 +75,10 @@
                         <a href="pages/sobre.php" class="btn" style="margin: 1em;">Conheça a Empresa</a>
                     </div>
                     <div class="color-vermelho centralizar">
-                        <img id="imagem__sobre_nos" src="assets/images/fotos/foto-estudio1779x1080.png" alt="Foto do Estúdio">
+                        <!-- <img id="imagem__sobre_nos" src="assets/images/fotos/foto-estudio1779x1080.png" alt="Foto do Estúdio"> -->
+                        <video id="video__index" controls>
+                            <source src="assets/videos/video-sobre-empresa.mp4" type="video/mp4">
+                        </video>
                     </div>
                 </div>
                 <div id="container__servicos" class="padding-sessoes background-preto centralizar">
